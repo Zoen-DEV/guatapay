@@ -1,10 +1,27 @@
+# Guatapay App - Landing Page
 
-  # Guatapay Web
+Guatapay es una aplicación que facilita el envío y la recepción de pagos sin fronteras. Esta landing page sirve como plataforma promocional para informar a los usuarios sobre sus características y beneficios.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+## Pre-requisitos
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+Antes de ejecutar el proyecto en su máquina local para propósitos de desarrollo y pruebas, necesitará instalar lo siguiente:
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+## Instalación
+
+Para instalar y ejecutar este proyecto, sigue los siguientes pasos:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/LimboSpace/guatapay-landing.git
+
+# Acceder al directorio del proyecto
+cd guatapay-landing
+
+# Instalar las dependencias
+npm install
+
+# Ejecutar el proyecto
+npm start

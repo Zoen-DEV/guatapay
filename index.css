@@ -20,7 +20,18 @@
     height: 0;
   }
   to {
-    height: 90vh;
+    height: 25vh;
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(180deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  50% {
+    transform: translateY(-20%) rotate(180deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 }
 .header {
@@ -56,7 +67,8 @@
   color: var(--generic-white);
   text-align: center;
 }
-.icon-right {
+.icon-right,
+.icon-right-responsive {
   position: absolute;
   top: 10px;
   left: 89px;
@@ -103,7 +115,7 @@
   justify-content: flex-start;
 }
 .link,
-.link2-responsive {
+.link-responsive {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -152,9 +164,7 @@
   gap: var(--gap-7xs);
 }
 .link1:hover .label1,
-.link2:hover .label1,
-.link1-responsive:hover .label1,
-.link2-responsive:hover .label1 {
+.link2:hover .label1 {
   color: var(--color-cornflowerblue);
 }
 .icono {
@@ -1248,23 +1258,64 @@
   color: var(--generic-white);
   font-family: var(--paragraph-small-regular);
 }
+/* Menu hamburguesa */
 .menu-content {
   display: flex;
   flex-direction: column;
-  animation: 2s ease dropDown;
+  justify-content: space-between;
+  animation: 1s ease dropDown;
   width: 100vw;
-  height: 90vh;
-  background-color: lightblue;
+  height: 25vh;
+  padding-left: 10px;
+  background-color: var(--secondary-500-main);
+  border-bottom: 2px solid var(--generic-white);
   display: none;
+}
+.extend-menu-content {
+  height: auto;
 }
 .menu-soluciones-responsive {
   flex-direction: column;
   margin-left: 20px;
+  color: var(--generic-white);
   display: none;
+}
+.button-menu-responsive p {
+  margin: 5px 0 5px 0;
+  font-size: var(--paragraph-medium-regular-size);
+  font-family: var(--paragraph-small-regular);
+  color: var(--generic-white);
+}
+.menu-close {
+  all: unset;
+  width: 10vw;
+  align-self: center;
+  margin-right: 20px;
+  animation: bounce 1s infinite;
+  cursor: pointer;
+}
+.menu-close img {
+  width: var(--heading-h1-bold-size);
+  height: var(--heading-h1-bold-size);
+}
+.rotate-solution-icon {
+  transform: rotate(180deg);
+}
+.link-responsive,
+.link1-responsive,
+.link2-responsive {
+  width: 100%;
+  justify-content: flex-start;
 }
 .show-menu-content,
 .show-menu-soluciones {
   display: flex;
+}
+@media screen and (min-width: 1024px) {
+  .menu-content,
+  .menu-soluciones-responsive {
+    display: none;
+  }
 }
 @media screen and (max-width: 1280px) {
   .nav {

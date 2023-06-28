@@ -5,6 +5,7 @@ body {
 
 :root {
   /* fonts */
+  --heading-h4-bold: "DM Sans";
   --paragraph-small-regular: "DM Sans";
   --paragraph-medium-medium: Inter;
 
@@ -22,6 +23,7 @@ body {
   --secondary-50: #eff2fe;
   --generic-white: #fff;
   --color-gray-100: #fafafa;
+  --color-gray-200: #404040;
   --neutral-9001: #111827;
   --neutral-900: #171717;
   --secondary-500-main: #6466e9;
@@ -40,6 +42,10 @@ body {
   --color-cornflowerblue: #a8b4f7;
 
   /* Gaps */
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
+  --gap-53xl: 72px;
+  --gap-45xl: 64px;
   --gap-21xl: 40px;
   --gap-base: 16px;
   --gap-5xl: 24px;
@@ -49,6 +55,7 @@ body {
   --gap-9xs: 4px;
 
   /* Paddings */
+  --padding-53xl: 72px;
   --padding-61xl: 80px;
   --padding-181xl: 200px;
   --padding-21xl: 40px;

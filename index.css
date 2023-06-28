@@ -15,6 +15,19 @@
     opacity: 1;
   }
 }
+@keyframes dropDown {
+  0% {
+    height: 0;
+  }
+  to {
+    height: 90vh;
+  }
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .group-icon,
 .group-icon1 {
   position: relative;
@@ -89,7 +102,8 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.link {
+.link,
+.link2-responsive {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -123,7 +137,9 @@
   text-align: center;
 }
 .link1,
-.link2 {
+.link2,
+.link1-responsive,
+.link2-responsive {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -136,7 +152,9 @@
   gap: var(--gap-7xs);
 }
 .link1:hover .label1,
-.link2:hover .label1 {
+.link2:hover .label1,
+.link1-responsive:hover .label1,
+.link2-responsive:hover .label1 {
   color: var(--color-cornflowerblue);
 }
 .icono {
@@ -230,7 +248,7 @@
   flex-shrink: 0;
   display: none;
 }
-.header,
+.nav,
 .links {
   align-self: stretch;
   display: flex;
@@ -241,7 +259,7 @@
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
-.header {
+.nav {
   background-color: var(--secondary-500-main);
   padding: var(--padding-5xl) var(--padding-181xl);
   justify-content: space-between;
@@ -1230,8 +1248,26 @@
   color: var(--generic-white);
   font-family: var(--paragraph-small-regular);
 }
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  animation: 2s ease dropDown;
+  width: 100vw;
+  height: 90vh;
+  background-color: lightblue;
+  display: none;
+}
+.menu-soluciones-responsive {
+  flex-direction: column;
+  margin-left: 20px;
+  display: none;
+}
+.show-menu-content,
+.show-menu-soluciones {
+  display: flex;
+}
 @media screen and (max-width: 1280px) {
-  .header {
+  .nav {
     display: flex;
     padding-left: var(--padding-181xl);
     padding-right: var(--padding-181xl);
@@ -1270,7 +1306,7 @@
   .menu {
     display: flex;
   }
-  .header {
+  .nav {
     padding-left: var(--padding-17xl);
     padding-right: var(--padding-17xl);
     box-sizing: border-box;
@@ -1406,7 +1442,7 @@
   }
 }
 @media screen and (max-width: 430px) {
-  .header {
+  .nav {
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;

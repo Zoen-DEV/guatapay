@@ -1,0 +1,165 @@
+.landing {
+  font-family: var(--paragraph-small-regular);
+}
+
+.label1 {
+  all: unset;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--neutral-900);
+  width: 100vw;
+  padding: var(--padding-21xl) 0;
+  gap: var(--gap-29xl);
+}
+
+/* Form header */
+.form-header {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+
+.form-header h1 {
+  font-size: var(--heading-h4-bold-size);
+  margin-bottom: 0;
+}
+
+.form-header p {
+  font-size: var(--paragraph-medium-regular-size);
+  color: var(--neutral-500);
+  margin-top: 0;
+}
+
+/* contactus form */
+form {
+  width: 73%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  gap: var(--gap-5xs);
+  margin-bottom: var(--gap-13xl);
+}
+
+form input {
+  width: 90%;
+  outline: none;
+  padding: var(--padding-xs) var(--padding-3xs);
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--neutral-200);
+}
+
+form input:hover {
+  background-color: var(--color-gray-100);
+}
+
+form input:focus,
+.mensaje-label textarea:focus {
+  border-color: var(--secondary-500-main);
+}
+
+form input::placeholder,
+.mensaje-label textarea::placeholder {
+  color: var(--neutral-400);
+  font-family: var(--paragraph-small-regular);
+}
+
+form #email,
+form #telefono {
+  width: 95%;
+}
+
+.mensaje-label {
+  width: 100%;
+}
+
+.mensaje-label textarea {
+  width: 97.5%;
+  outline: none;
+  padding: var(--padding-xs) var(--padding-3xs);
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--neutral-200);
+  height: 160px;
+  resize: none;
+}
+
+form span {
+  color: var(--neutral-700);
+  font-size: var(--paragraph-medium-regular-size);
+  font-weight: 500;
+}
+
+.submit-btn {
+  width: 18%;
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--secondary-500-main);
+  border-radius: var(--br-7xs);
+  font-size: var(--paragraph-small-regular-size);
+  font-weight: 500;
+  color: var(--generic-white);
+}
+
+form p {
+  font-size: var(--overline-small-size);
+  color: var(--neutral-400);
+  margin-top: var(--padding-xl);
+}
+
+@media screen and (max-width: 1024px) {
+  .form-header {
+    width: 90vw;
+  }
+
+  form {
+    width: 90vw;
+  }
+
+  .submit-btn {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .form-header {
+    width: 95vw;
+  }
+
+  form {
+    width: 95vw;
+    flex-direction: column;
+  }
+
+  form label {
+    width: 100%;
+  }
+
+  form input {
+    width: 95%;
+  }
+
+  .mensaje-label textarea {
+    width: 95%;
+  }
+
+  .submit-btn {
+    width: 40%;
+  }
+
+  form p {
+    text-align: justify;
+  }
+}

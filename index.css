@@ -20,6 +20,9 @@
   display: flex;
   flex-direction: column;
 }
+.soluciones {
+  all: unset;
+}
 .group-icon,
 .group-icon1 {
   position: relative;

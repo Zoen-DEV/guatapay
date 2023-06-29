@@ -20,11 +20,13 @@
     <div class="landing">
       <header class="header">
         <nav class="nav">
-          <div class="logo-block">
-            <img class="group-icon" alt="" src="/public/group.svg" />
+          <a href="/index.html">
+            <div class="logo-block">
+              <img class="group-icon" alt="" src="/public/group.svg" />
 
-            <img class="group-icon1" alt="" src="/public/group1.svg" />
-          </div>
+              <img class="group-icon1" alt="" src="/public/group1.svg" />
+            </div>
+          </a>
           <div class="links">
             <button class="link">
               <div class="label">Soluciones</div>
@@ -43,7 +45,7 @@
               </div>
             </button>
             <button class="link1">
-              <div class="label1">Sobre Nosotros</div>
+              <a class="label1" href="/about/index.html">Sobre Nosotros</a>
               <img class="icon-left" alt="" src="/public/iconright3.svg" />
             </button>
             <button class="link2">
@@ -100,35 +102,33 @@
                   <img
                     class="language-icon"
                     alt=""
-                    src="./public/language.svg"
+                    src="/public/language.svg"
                   />
 
-                  <img class="cancel-icon" alt="" src="./public/cancel.svg" />
+                  <img class="cancel-icon" alt="" src="/public/cancel.svg" />
                 </div>
               </div>
               <div class="menu-content">
-                <b class="soluciones">Soluciones</b>
-                <b class="soluciones">Sobre Nosotros</b>
+                <a class="soluciones">Soluciones</a>
+                <a class="soluciones" href="/about/index.html"
+                  >Sobre Nosotros</a
+                >
                 <b class="soluciones">Contacto</b>
               </div>
             </div>
             <div class="logo-social-media">
-              <img class="logo-icon" alt="" src="./public/logo1.svg" />
+              <img class="logo-icon" alt="" src="/public/logo1.svg" />
 
               <div class="social-media">
                 <img
                   class="instagram-icon"
                   alt=""
-                  src="./public/instagram.svg"
+                  src="/public/instagram.svg"
                 />
 
-                <img
-                  class="instagram-icon"
-                  alt=""
-                  src="./public/facebook.svg"
-                />
+                <img class="instagram-icon" alt="" src="/public/facebook.svg" />
 
-                <img class="instagram-icon" alt="" src="./public/twitter.svg" />
+                <img class="instagram-icon" alt="" src="/public/twitter.svg" />
               </div>
             </div>
           </div>
@@ -257,5 +257,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="/script/toggleMenu.js"></script>
   </body>
 </html>

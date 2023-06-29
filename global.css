@@ -5,6 +5,7 @@ body {
 
 :root {
   /* fonts */
+  --heading-h4-bold: "DM Sans";
   --paragraph-small-regular: "DM Sans";
   --paragraph-medium-medium: Inter;
 
@@ -22,6 +23,7 @@ body {
   --secondary-50: #eff2fe;
   --generic-white: #fff;
   --color-gray-100: #fafafa;
+  --color-gray-200: #404040;
   --neutral-9001: #111827;
   --neutral-900: #171717;
   --secondary-500-main: #6466e9;
@@ -45,12 +47,17 @@ body {
   --gap-9xs: 4px;
   --gap-7xs: 6px;
   --gap-5xs: 8px;
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
+  --gap-53xl: 72px;
+  --gap-45xl: 64px;
   --gap-base: 16px;
   --gap-5xl: 24px;
   --gap-21xl: 40px;
   --gap-77xl: 96px;
 
   /* Paddings */
+  --padding-53xl: 72px;
   --padding-3xs: 10px;
   --padding-xs: 12px;
   --padding-base: 16px;

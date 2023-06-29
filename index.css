@@ -140,6 +140,7 @@
   display: flex;
 }
 .label1 {
+  all: unset;
   position: relative;
   font-size: var(--paragraph-medium-regular-size);
   line-height: 24px;

@@ -3,7 +3,7 @@ name: cloudfront-deploy-main
 on:
   push:
     branches:
-      - continuous-flow
+      - main
 
 jobs:
   deploy:

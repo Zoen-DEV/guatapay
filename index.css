@@ -20,6 +20,11 @@
   display: flex;
   flex-direction: column;
 }
+.label,
+.button-menu,
+.label1 {
+  all: unset;
+}
 .group-icon,
 .group-icon1 {
   position: relative;

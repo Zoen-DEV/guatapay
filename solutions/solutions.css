@@ -149,7 +149,7 @@
   }
 
   .solutions p {
-    padding: 0;
+    padding: 0 var(--padding-xs);
   }
 
   .solutions-container {

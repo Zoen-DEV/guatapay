@@ -16,12 +16,12 @@
   font-family: var(--paragraph-small-regular);
 }
 
-.solutions h1 {
+.solutions-title {
   color: var(--neutral-900);
   font-size: var(--heading-h5-regular-size);
 }
 
-.solutions p {
+.solutions-paragraph {
   padding: 0 var(--padding-61xl);
   color: var(--neutral-400);
   font-size: var(--paragraph-large-regular-size);
@@ -50,32 +50,28 @@
   gap: var(--gap-7xs);
 }
 
-.solutions-content h1 {
+.solutions-content-title {
   margin: 0;
   font-size: var(--heading-h4-bold-size);
 }
 
-.solutions-content p {
+.solutions-content-paragraph {
   margin: 0;
   color: var(--neutral-500);
   font-size: var(--paragraph-large-regular-size);
 }
 
-.solutions-content a {
+.solutions-content-link {
   margin: 0;
   margin-top: var(--gap-21xl);
   color: var(--secondary-500-main);
   background-color: var(--secondary-300-main);
   width: var(--padding-61xl);
   text-align: center;
-  padding: var(--padding-3xs) var(--padding-base);
-  font-size: var(--paragraph-small-regular-size);
   font-weight: 500;
-  border-radius: var(--br-7xs);
-  cursor: pointer;
 }
 
-.solutions-content a:hover {
+.solutions-content-link:hover {
   background-color: var(--secondary-400-main);
 }
 
@@ -90,22 +86,18 @@
   gap: var(--gap-5xl);
 }
 
-.registrate-container p {
+.registrate-paragraph {
   width: 75%;
   font-size: var(--heading-h5-regular-size);
   text-align: center;
 }
 
-.registrate-container a {
+.registrate-link {
   color: var(--neutral-900);
   background-color: var(--neutral-200);
-  padding: var(--padding-3xs) var(--padding-base);
-  border-radius: var(--br-7xs);
-  font-size: var(--paragraph-medium-regular-size);
-  cursor: pointer;
 }
 
-.registrate-container a:hover {
+.registrate-link:hover {
   background-color: var(--neutral-300);
 }
 
@@ -113,12 +105,21 @@
   display: none;
 }
 
+/* 'Saber mas' button */
+.registrate-link,
+.solutions-content-link {
+  cursor: pointer;
+  border-radius: var(--br-7xs);
+  font-size: var(--paragraph-small-regular-size);
+  padding: var(--padding-3xs) var(--padding-base);
+}
+
 @media screen and (max-width: 1024px) {
   .solutions {
     width: 80vw;
   }
 
-  .solutions p {
+  .solutions-paragraph {
     font-size: var(--paragraph-large-regular-size);
   }
 
@@ -127,11 +128,11 @@
     padding-top: var(--padding-35xl);
   }
 
-  .solutions-content h1 {
+  .solutions-content-title {
     font-size: var(--heading-h5-regular-size);
   }
 
-  .registrate-container p {
+  .registrate-paragraph {
     width: 95%;
   }
 }
@@ -148,7 +149,7 @@
     margin: 0;
   }
 
-  .solutions p {
+  .solutions-paragraph {
     padding: 0 var(--padding-xs);
   }
 
@@ -166,7 +167,7 @@
     width: 100%;
   }
 
-  .solutions-content a {
+  .solutions-content-link {
     background-color: transparent;
     padding: 0;
     font-size: var(--paragraph-medium-regular-size);

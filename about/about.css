@@ -1,5 +1,5 @@
 /* about */
-.about {
+.about-container {
   width: 60vw;
   padding: 0 var(--padding-61xl) var(--padding-35xl) var(--padding-61xl);
   margin: auto;
@@ -22,7 +22,7 @@
 }
 
 /* what is guatapay */
-.what-is-guatapay {
+.guatapay-container {
   width: 100vw;
   margin: auto;
   padding: var(--padding-61xl) 0;
@@ -58,7 +58,7 @@
 }
 
 /* we believe */
-.we-believe {
+.we-believe-container {
   width: 50vw;
   padding: var(--padding-35xl) var(--padding-61xl);
   margin: auto;
@@ -76,7 +76,7 @@
 }
 
 /* currencies */
-.currencies {
+.currencies-container {
   width: 70vw;
   margin: auto;
   padding: var(--padding-61xl) 0;
@@ -103,7 +103,7 @@
 }
 
 /* our-service */
-.our-service {
+.our-service-container {
   width: 70vw;
   margin: auto;
   padding: var(--padding-61xl) 0;
@@ -114,7 +114,7 @@
   font-family: var(--paragraph-small-regular);
 }
 
-.our-service {
+.our-service-paragraph {
   color: var(--destructive-500);
   font-size: var(--paragraph-medium-regular-size);
   text-align: center;
@@ -123,31 +123,31 @@
 /* Tablet */
 @media screen and (max-width: 1024px) {
   /* about */
-  .about {
+  .about-container {
     width: 90vw;
     padding-left: 0;
     padding-right: 0;
   }
 
   /* what is guatapay */
-  .what-is-guatapay {
+  .guatapay-container {
     gap: var(--gap-base);
   }
 
   /* we believe */
-  .we-believe {
+  .we-believe-container {
     width: 75vw;
   }
 
   /* our-service */
-  .our-service {
+  .our-service-container {
     width: 80vw;
   }
 }
 
 @media screen and (max-width: 640px) {
   /* about */
-  .about {
+  .about-container {
     width: 100vw;
   }
 
@@ -156,7 +156,7 @@
   }
 
   /* what is guatapay */
-  .what-is-guatapay {
+  .guatapay-container {
     width: 85vw;
     padding: var(--padding-5xl) var(--padding-base);
     border-radius: var(--br-base);
@@ -188,7 +188,7 @@
   }
 
   /* we believe */
-  .we-believe {
+  .we-believe-container {
     width: 95vw;
     padding: var(--padding-35xl) var(--padding-3xs);
     margin: 0;
@@ -200,12 +200,12 @@
   }
 
   /* currencies */
-  .currencies {
+  .currencies-container {
     display: none;
   }
 
   /* our-service */
-  .our-service {
+  .our-service-container {
     display: none;
   }
 }

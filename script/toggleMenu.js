@@ -1,4 +1,4 @@
-const toggleMenuBtn = document.querySelector(".menu");
+const toggleMenuBtn = document.querySelector(".menu-button");
 const menu = document.querySelector(".menu-container");
 const menuClose = document.querySelector(".cancel-icon");
 

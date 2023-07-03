@@ -39,56 +39,97 @@
               <div class="solutions-sublinks-container">
                 <a
                   class="solution-sublink placeholder"
+                  id="ecommerce-link"
                   href="/solutions/index.html"
                   >Comercio electrónico
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="paid-service-link"
                   href="/solutions/index.html"
                   >Servicios de pago
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="payment-link"
                   href="/solutions/index.html"
                   >Link de pagos
                 </a>
               </div>
             </div>
-            <a class="nav-link" href="/about/index.html">Sobre Nosotros</a>
-            <a class="nav-link" href="/contactus/index.html">Contacto</a>
+            <a class="nav-link" id="about-link" href="/about/index.html"
+              >Sobre Nosotros</a
+            >
+            <a class="nav-link" id="contact-link" href="/contactus/index.html"
+              >Contacto</a
+            >
             <div class="language-container">
               <img class="icono" alt="" src="/public/icono.svg" />
 
               <div class="menu-language">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language placeholder" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es"> Español </span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language placeholder" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
               <div class="menu-language-tablet">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es">Español</span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
             </div>
@@ -264,5 +305,6 @@
     </main>
 
     <script src="/script/toggleMenu.js"></script>
+    <script src="/script/switchNavLanguage.js"></script>
   </body>
 </html>

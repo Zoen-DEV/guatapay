@@ -41,6 +41,7 @@
   gap: 10px;
 }
 .label {
+  all: unset;
   position: absolute;
   top: 8px;
   left: 0;
@@ -133,8 +134,7 @@
   color: var(--generic-white);
   text-align: center;
 }
-.link1,
-.link2,
+.label1,
 .link1-responsive,
 .link2-responsive {
   cursor: pointer;
@@ -148,8 +148,7 @@
   justify-content: center;
   gap: var(--gap-7xs);
 }
-.link1:hover .label1,
-.link2:hover .label1 {
+.label1:hover {
   color: var(--color-cornflowerblue);
 }
 .icono {
@@ -1120,7 +1119,8 @@
   position: relative;
   line-height: 24px;
 }
-.link3, .link4 {
+.link3,
+.link4 {
   cursor: pointer;
 }
 .input2 {
@@ -1383,8 +1383,7 @@
   .group-icon,
   .language:hover .menu-language,
   .link,
-  .link1,
-  .link2 {
+  .label1 {
     display: none;
   }
   .language:hover .menu-language-tablet,

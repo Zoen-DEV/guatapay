@@ -6,7 +6,7 @@
   all: unset;
 }
 
-article {
+.form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,25 +26,25 @@ article {
   gap: var(--gap-base);
 }
 
-.form-header h1 {
+.form-header-title {
   font-size: var(--heading-h4-bold-size);
   margin-bottom: 0;
 }
 
-.form-header p {
+.form-header-paragraph {
   font-size: var(--paragraph-medium-regular-size);
   color: var(--neutral-500);
   margin-top: 0;
 }
 
 /* contactus form */
-form {
+.contactus-form {
   width: 73%;
   display: flex;
   flex-wrap: wrap;
 }
 
-form label {
+.contactus-form label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -53,7 +53,7 @@ form label {
   margin-bottom: var(--gap-13xl);
 }
 
-form input {
+.contactus-form input {
   width: 90%;
   outline: none;
   padding: var(--padding-xs) var(--padding-3xs);
@@ -61,23 +61,23 @@ form input {
   border: 1px solid var(--neutral-200);
 }
 
-form input:hover {
+.contactus-form input:hover {
   background-color: var(--color-gray-100);
 }
 
-form input:focus,
+.contactus-form input:focus,
 .mensaje-label textarea:focus {
   border-color: var(--secondary-500-main);
 }
 
-form input::placeholder,
+.contactus-form input::placeholder,
 .mensaje-label textarea::placeholder {
   color: var(--neutral-400);
   font-family: var(--paragraph-small-regular);
 }
 
-form #email,
-form #telefono {
+.contactus-form #email,
+.contactus-form #telefono {
   width: 95%;
 }
 
@@ -95,7 +95,7 @@ form #telefono {
   resize: none;
 }
 
-form span {
+.contactus-form span {
   color: var(--neutral-700);
   font-size: var(--paragraph-medium-regular-size);
   font-weight: 500;
@@ -113,7 +113,7 @@ form span {
   color: var(--generic-white);
 }
 
-form p {
+.policy-paragraph {
   font-size: var(--overline-small-size);
   color: var(--neutral-400);
   margin-top: var(--padding-xl);
@@ -124,7 +124,7 @@ form p {
     width: 90vw;
   }
 
-  form {
+  .contactus-form {
     width: 90vw;
   }
 
@@ -138,16 +138,16 @@ form p {
     width: 95vw;
   }
 
-  form {
+  .contactus-form {
     width: 95vw;
     flex-direction: column;
   }
 
-  form label {
+  .contactus-form label {
     width: 100%;
   }
 
-  form input {
+  .contactus-form input {
     width: 95%;
   }
 
@@ -159,7 +159,7 @@ form p {
     width: 40%;
   }
 
-  form p {
+  .policy-paragraph {
     text-align: justify;
   }
 }

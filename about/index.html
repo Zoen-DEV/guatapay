@@ -17,7 +17,7 @@
     />
   </head>
   <body>
-    <div class="landing">
+    <main class="landing">
       <header class="header">
         <nav class="nav">
           <a href="/index.html">
@@ -94,58 +94,45 @@
           </div>
         </nav>
 
-        <div class="menu-container">
-          <div class="mobile-menu">
-            <div class="header-sections">
-              <div class="menu-header">
-                <div class="icons">
-                  <img
-                    class="language-icon"
-                    alt=""
-                    src="/public/language.svg"
-                  />
+        <section class="menu-container">
+          <div class="menu-header">
+            <img class="language-icon" alt="lenguage changer" src="/public/language.svg" />
+            <img class="cancel-icon" alt="close menu icon" src="/public/cancel.svg" />
+          </div>
+          <div class="menu-content">
+            <a class="soluciones">Soluciones</a>
+            <a class="soluciones" href="/about/index.html">Sobre Nosotros</a>
+            <b class="soluciones">Contacto</b>
+          </div>
+          <div class="logo-social-media">
+            <img class="logo-icon" alt="guatapay icon" src="/public/logo1.svg" />
 
-                  <img class="cancel-icon" alt="" src="/public/cancel.svg" />
-                </div>
-              </div>
-              <div class="menu-content">
-                <a class="soluciones">Soluciones</a>
-                <a class="soluciones" href="/about/index.html"
-                  >Sobre Nosotros</a
-                >
-                <b class="soluciones">Contacto</b>
-              </div>
-            </div>
-            <div class="logo-social-media">
-              <img class="logo-icon" alt="" src="/public/logo1.svg" />
+            <div class="social-media">
+              <img class="instagram-icon" alt="instagram icon" src="/public/instagram.svg" />
 
-              <div class="social-media">
-                <img
-                  class="instagram-icon"
-                  alt=""
-                  src="/public/instagram.svg"
-                />
+              <img class="instagram-icon" alt="facebook icon" src="/public/facebook.svg" />
 
-                <img class="instagram-icon" alt="" src="/public/facebook.svg" />
-
-                <img class="instagram-icon" alt="" src="/public/twitter.svg" />
-              </div>
+              <img class="instagram-icon" alt="twitter icon" src="/public/twitter.svg" />
             </div>
           </div>
-        </div>
+        </section>
       </header>
-      <div class="about">
-        <h1>Nosotros</h1>
-        <p>
+
+      <article class="about">
+        <h1 class="about-title">Nosotros</h1>
+        <p class="about-paragraph">
           Somos un grupo de amantes de Bitcoin y su tecnología.<br />
           Estamos convencidos que Bitcoin hará de la industria financiera un
           espacio justo, incluyente y de acceso abierto.
         </p>
-      </div>
-      <div class="what-is-guatapay">
+      </article>
+
+      <section class="what-is-guatapay">
         <img class="about-image" src="/public/about.svg" alt="meeting peaple" />
-        <div class="guatapay-info">
-          <span>QUEREMOS SER PARTE DE LA CONSTRUCCIÓN DE UN</span>
+        <article class="guatapay-info">
+          <span class="guatapay-info-span"
+            >QUEREMOS SER PARTE DE LA CONSTRUCCIÓN DE UN</span
+          >
           <p class="long-screen-info">
             Nuevo sistema financiero, en el que las criptomonedas sean la
             infraestructura en la que cualquier usuario se transforme en un
@@ -157,19 +144,21 @@
             cualquier usuario se transforme en un microcanal, democratizando el
             poder del dinero.
           </p>
-        </div>
-      </div>
-      <div class="we-believe">
-        <p>
+        </article>
+      </section>
+
+      <article class="we-believe">
+        <p class="we-believe-paragraph">
           Por eso, creamos la infraestructura de pagos en criptomonedas que
           permitirá a las personas, comercios y empresas transformarse en
           microentidades que puedan proveer servicios financieros alternativos y
           abrir fácilmente canales transaccionales digitales alrededor del
           mundo.
         </p>
-      </div>
-      <div class="currencies">
-        <p>
+      </article>
+
+      <section class="currencies">
+        <p class="currencies-paragraph">
           Guatapay es una infraestructura de aceptación de pagos con Bitcoin,
           Lightning Network y las criptomonedas de mayor impacto en el entorno
           económico global.
@@ -196,8 +185,9 @@
             alt="currency icon"
           />
         </div>
-      </div>
-      <div class="our-service">
+      </section>
+
+      <article class="our-service">
         <p>
           Nuestro servicio de gateway de pagos permite a las personas, comercios
           y compañías realizar y recibir pagos instantáneamente, 24/7, desde
@@ -205,7 +195,8 @@
           tu moneda local y, lo mejor de todo, al costo más competitivo del
           mercado de pagos digitales global.
         </p>
-      </div>
+      </article>
+
       <footer class="footer">
         <div class="logo-links">
           <a class="logo-block1">
@@ -256,7 +247,7 @@
           </div>
         </div>
       </footer>
-    </div>
+    </main>
 
     <script src="/script/toggleMenu.js"></script>
   </body>

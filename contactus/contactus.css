@@ -39,12 +39,12 @@
 
 /* contactus form */
 .contactus-form {
-  width: 73%;
+  width: 73vw;
   display: flex;
   flex-wrap: wrap;
 }
 
-.contactus-form label {
+.contactus-form-label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -53,7 +53,11 @@
   margin-bottom: var(--gap-13xl);
 }
 
-.contactus-form input {
+.mensaje-label {
+  width: 100%;
+}
+
+.contactus-form-input {
   width: 90%;
   outline: none;
   padding: var(--padding-xs) var(--padding-3xs);
@@ -61,16 +65,17 @@
   border: 1px solid var(--neutral-200);
 }
 
-.contactus-form input:hover {
+.contactus-form-input:hover {
   background-color: var(--color-gray-100);
 }
 
-.contactus-form input:focus,
+.contactus-form-input:focus,
 .mensaje-label textarea:focus {
-  border-color: var(--secondary-500-main);
+  border: 1px solid var(--secondary-500-main);
+  box-shadow: 0 0 0 4px rgba(90, 56, 253, 0.1);
 }
 
-.contactus-form input::placeholder,
+.contactus-form-input::placeholder,
 .mensaje-label textarea::placeholder {
   color: var(--neutral-400);
   font-family: var(--paragraph-small-regular);
@@ -81,17 +86,12 @@
   width: 95%;
 }
 
-.mensaje-label {
-  width: 100%;
-}
-
 .mensaje-label textarea {
   width: 97.5%;
   outline: none;
   padding: var(--padding-xs) var(--padding-3xs);
   border-radius: var(--br-7xs);
   border: 1px solid var(--neutral-200);
-  height: 160px;
   resize: none;
 }
 
@@ -103,6 +103,7 @@
 
 .submit-btn {
   width: 18%;
+  margin-top: var(--gap-base);
   cursor: pointer;
   border: 0;
   padding: var(--padding-xs) var(--padding-xl);
@@ -143,11 +144,11 @@
     flex-direction: column;
   }
 
-  .contactus-form label {
+  .contactus-form-label {
     width: 100%;
   }
 
-  .contactus-form input {
+  .contactus-form-input {
     width: 95%;
   }
 

@@ -1,0 +1,167 @@
+// Labels in both languages
+const footerContent = {
+  services: {
+    es: "Servicios",
+    en: "Services",
+  },
+  resources: {
+    es: "Recursos",
+    en: "Resources",
+  },
+  about: {
+    es: "Sobre Nosotros",
+    en: "About us",
+  },
+  contact: {
+    es: "Contacto",
+    en: "Contact us",
+  },
+  nexsletter: {
+    es: "Recibe las últimas noticias de Guatapay en tu correo:",
+    en: "Receive the latest news from Guatapay in your email:",
+  },
+  button: {
+    es: "Suscribirse",
+    en: "Subscribe",
+  },
+  copyright: {
+    es: "Copyright © Guatapay 2023 - Todos los derechos reservados",
+    en: "Copyright © Guatapay 2023 - All rights reserved",
+  },
+};
+
+const linksContent = {
+  solutions: {
+    label: {
+      es: "Soluciones",
+      en: "Solutions",
+    },
+    one: {
+      es: "Comercio electrónico",
+      en: "E-commerce",
+    },
+    two: {
+      es: "Servicios de pago",
+      en: "Paid services",
+    },
+    three: {
+      es: "Link de pagos",
+      en: "Payment link",
+    },
+  },
+  about: {
+    es: "Sobre Nosotros",
+    en: "About us",
+  },
+  contact: {
+    es: "Contacto",
+    en: "Contact",
+  },
+  language: {
+    spanish: {
+      es: "Español",
+      en: "Spanish",
+    },
+    english: {
+      es: "Inglés",
+      en: "English",
+    },
+  },
+};
+
+const homeContent = {
+  hero: {
+    easy: {
+      es: "Fácil, rápido y seguro",
+      en: "Easy, fast and safe",
+    },
+    send: {
+      es: "Envía y recibe dinero sin fronteras",
+      en: "Send and receive money without borders",
+    },
+    never: {
+      es: "Con Guatapay nunca ha sido tan fácil, rápido y seguro el envío de remesas a bajos costos de comisión.",
+      en: "With Guatapay it has never been so easy, fast and secure to send remittances at low commission costs.",
+    },
+    more: {
+      es: "Más información",
+      en: "More information",
+    },
+  },
+  everyCorner: {
+    title: {
+      es: "Llegamos a cada rincón",
+      en: "We reach everywhere",
+    },
+    coming: {
+      es: "Próximamente",
+      en: "Coming soon",
+    },
+    paragraph: {
+      es: "Tenemos presencia en los principales países donde los latinoamericanos necesitan nuestra solución. Nuestra misión es llevar nuestro servicio a cada rincón del mundo.",
+      en: "We are present in the main countries where Latin Americans Latin Americans need our solution. Our mission is to bring our service to every corner of the world.",
+    },
+    eeuu: {
+      es: "Estados Unidos",
+      en: "United States",
+    },
+    pe: {
+      es: "Perú",
+      en: "Peru",
+    },
+    br: {
+      es: "Brasil",
+      en: "Brazil",
+    },
+    es: {
+      es: "España",
+      en: "Spain",
+    },
+  },
+  complexities: {
+    easy: {
+      es: "Fácil, rápido y seguro",
+      en: "Easy, fast and safe",
+    },
+    complexities: {
+      es: "Sin complejidades",
+      en: "Without complexities",
+    },
+    move: {
+      es: "Mueve tu dinero libremente, fácil y al instante. Tenemos las comisiones mas bajas del mercado.*",
+      en: "Move your money freely, easily and instantly. We have the lowest commissions in the market.*",
+    },
+    register: {
+      es: "Registrarse Ahora",
+      en: "Register Now",
+    },
+    cost: {
+      es: "*1.2% costo promedio por transacción transfronteriza.",
+      en: "*1.2% average cost per cross-border transaction.",
+    },
+    available: {
+      es: "Disponible: 10,652.31",
+      en: "Available: 10,652.31",
+    },
+  },
+  testimony: {
+    paragraph: {
+      es: '"Guatapay me da la flexibilidad que necesito, permitiéndome enviar dinero a mi familia en Colombia a costos realmente bajos"',
+      en: '"Guatapay gives me the flexibility I need, allowing me to send money to my family in Colombia at really low costs."',
+    },
+    context: {
+      es: "Colombiana viviendo en Estados Unidos",
+      en: "Colombian living in the United States",
+    },
+  },
+  request: {
+    paragraph: {
+      es: "Olvídate de las complejidades y comienza a mover tu dinero libremente de forma rápida y a bajos costos de comisión hoy mismo.",
+      en: "Forget the complexities and start moving your money freely, quickly and at low freely, quickly and at low commission costs today.",
+    },
+    register: {
+      es: "Registrarse Ahora",
+      en: "Register Now",
+    },
+  },
+};

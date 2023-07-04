@@ -17,7 +17,7 @@
     />
   </head>
   <body>
-    <div class="landing">
+    <main class="landing">
       <header class="header-container">
         <nav class="nav-container">
           <a class="logo-container" href="/index.html">
@@ -268,7 +268,7 @@
                   src="./public/media--flags.svg"
                 />
 
-                <div class="estados-unidos">Estados Unidos</div>
+                <div class="estados-unidos" id="eeuu-label">Estados Unidos</div>
               </div>
               <div class="usa">
                 <img
@@ -310,19 +310,19 @@
                   src="./public/media--flags41.svg"
                 />
 
-                <div class="estados-unidos">Perú</div>
+                <div class="estados-unidos" id="pe-label">Perú</div>
               </div>
               <div class="usa">
                 <img class="media-flags" alt="" src="./public/br.svg" />
 
-                <div class="estados-unidos">Brasil</div>
+                <div class="estados-unidos" id="br-label">Brasil</div>
               </div>
             </div>
             <div class="us-co">
               <div class="usa">
                 <img class="media-flags" alt="" src="./public/br1.svg" />
 
-                <div class="estados-unidos">España</div>
+                <div class="estados-unidos" id="es-label">España</div>
               </div>
               <div class="more">
                 <div class="media-flags">
@@ -335,7 +335,7 @@
                     src="./public/add-fill0-wght200-grad0-opsz24-1.svg"
                   />
                 </div>
-                <div class="estados-unidos">Próximamente</div>
+                <div class="estados-unidos" id="coming-label">Próximamente</div>
               </div>
             </div>
           </div>
@@ -397,7 +397,9 @@
         <div class="text-tablet">
           <div class="text4">
             <div class="title-overline3">
-              <div class="fcil-rpido-y2">Fácil, rápido y seguro</div>
+              <div class="fcil-rpido-y2" id="fcil-rpido-y3">
+                Fácil, rápido y seguro
+              </div>
               <b class="sin-complejidades2">Sin complejidades</b>
             </div>
             <div class="mueve-tu-dinero1">
@@ -459,7 +461,7 @@
               <b class="nadia-bruckerman">Nadia Bruckerman</b>
             </div>
             <div class="position">
-              <div class="nadia-bruckerman">
+              <div class="nadia-bruckerman" id="testimony-context">
                 Colombiana viviendo en Estados Unidos
               </div>
             </div>
@@ -540,7 +542,7 @@
         </div>
       </footer>
       <div class="landing-child"></div>
-    </div>
+    </main>
 
     <script>
       var buttonLargeSecondary = document.getElementById(
@@ -559,5 +561,9 @@
     </script>
     <script src="/script/toggleMenu.js"></script>
     <script src="/script/switchLanguage.js"></script>
+    <script src="/script/languageImports.js"></script>
+    <script src="/script/languageData.js"></script>
+    <script src="/script/navFooterLanguage.js"></script>
+    <script src="/script/homeLanguage.js"></script>
   </body>
 </html>

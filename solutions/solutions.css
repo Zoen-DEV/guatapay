@@ -1,0 +1,177 @@
+.label,
+.button-menu,
+.label1 {
+  all: unset;
+}
+
+/* solutions */
+.solutions {
+  width: 60vw;
+  padding: var(--padding-35xl) var(--padding-61xl);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--paragraph-small-regular);
+}
+
+.solutions-title {
+  color: var(--neutral-900);
+  font-size: var(--heading-h5-regular-size);
+}
+
+.solutions-paragraph {
+  padding: 0 var(--padding-61xl);
+  color: var(--neutral-400);
+  font-size: var(--paragraph-large-regular-size);
+  text-align: center;
+  line-height: var(--padding-5xl);
+}
+
+/* solutions cards */
+.solutions-container {
+  width: 80vw;
+  margin: auto;
+  padding: var(--padding-61xl) 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  font-family: var(--paragraph-small-regular);
+}
+
+.solutions-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  color: var(--neutral-900);
+  gap: var(--gap-7xs);
+}
+
+.solutions-content-title {
+  margin: 0;
+  font-size: var(--heading-h4-bold-size);
+}
+
+.solutions-content-paragraph {
+  margin: 0;
+  color: var(--neutral-500);
+  font-size: var(--paragraph-large-regular-size);
+}
+
+.solutions-content-link {
+  margin: 0;
+  display: none;
+  margin-top: var(--gap-21xl);
+  color: var(--secondary-500-main);
+  background-color: var(--secondary-300-main);
+  width: var(--padding-61xl);
+  text-align: center;
+  font-weight: 500;
+}
+
+.solutions-content-link:hover {
+  background-color: var(--secondary-400-main);
+}
+
+/* registrate container */
+.registrate-container {
+  background-color: var(--secondary-500-main);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-85xl) 0;
+  gap: var(--gap-5xl);
+}
+
+.registrate-paragraph {
+  width: 75%;
+  font-size: var(--heading-h5-regular-size);
+  text-align: center;
+}
+
+.registrate-link {
+  color: var(--neutral-900);
+  background-color: var(--neutral-200);
+}
+
+.registrate-link:hover {
+  background-color: var(--neutral-300);
+}
+
+.solutions-icon-mobile {
+  display: none;
+}
+
+/* 'Saber mas' button */
+.registrate-link,
+.solutions-content-link {
+  cursor: pointer;
+  border-radius: var(--br-7xs);
+  font-size: var(--paragraph-small-regular-size);
+  padding: var(--padding-3xs) var(--padding-base);
+}
+
+@media screen and (max-width: 1024px) {
+  .solutions {
+    width: 80vw;
+  }
+
+  .solutions-paragraph {
+    font-size: var(--paragraph-large-regular-size);
+  }
+
+  .solutions-container {
+    width: 95vw;
+    padding-top: var(--padding-35xl);
+  }
+
+  .solutions-content-title {
+    font-size: var(--heading-h5-regular-size);
+  }
+
+  .registrate-paragraph {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .solutions-icon-large-screen {
+    display: none;
+  }
+
+  .solutions {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+
+  .solutions-paragraph {
+    padding: 0 var(--padding-xs);
+  }
+
+  .solutions-container {
+    flex-direction: column;
+  }
+
+  .solutions-icon-mobile {
+    display: block;
+    width: 20%;
+    margin: 0;
+  }
+
+  .solutions-content {
+    width: 100%;
+  }
+
+  .solutions-content-link {
+    background-color: transparent;
+    padding: 0;
+    font-size: var(--paragraph-medium-regular-size);
+    margin-top: var(--gap-5xl);
+  }
+}

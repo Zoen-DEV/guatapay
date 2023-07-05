@@ -263,3 +263,58 @@ const solutionsContent = {
     },
   },
 };
+
+const contactContent = {
+  header: {
+    title: {
+      es: "Contactar",
+      en: "Contact us",
+    },
+    paragraph: {
+      es: "Si deseas reservar una demostración o solicitar más información sobre nuestros servicios, por favor completa el siguiente formulario y nos pondremos en contacto contigo en la brevedad.",
+      en: "If you wish to book a demonstration or request more information about our services, please complete the following form and we will contact you as soon as possible.",
+    },
+  },
+  form: {
+    name: {
+      placeholder: {
+        es: "Ingresa tu nombre",
+        en: "Enter your name",
+      },
+      es: "Nombre",
+      en: "Name",
+    },
+    email: {
+      es: "Ingresa tu correo",
+      en: "Enter your email",
+    },
+    company: {
+      placeholder: {
+        es: "Ingresa tu compañía",
+        en: "Enter your company",
+      },
+      es: "Compañía (opcional)",
+      en: "Company (optional)",
+    },
+    phone: {
+      es: "Télefono",
+      en: "Phone",
+    },
+    message: {
+      placeholder: {
+        es: "Escribe tu mensaje...",
+        en: "Write your message...",
+      },
+      es: "Mensaje",
+      en: "Message",
+    },
+    submit: {
+      es: "Enviar mensaje",
+      en: "Send message",
+    },
+  },
+  policy: {
+    es: "Al pulsar el botón “Enviar mensaje”, acepto que Guatapay se ponga en contacto conmigo por correo electrónico y/o teléfono. También entiendo que cualquier información que he compartido en este formulario está sujeta a la Política de Privacidad de Guatapay.",
+    en: "By clicking the “Send message” button, I agree to be contacted by Guatapay by email and/or phone. I also understand that any information I have shared on this form is subject to Guatapay's Privacy Policy.",
+  },
+};

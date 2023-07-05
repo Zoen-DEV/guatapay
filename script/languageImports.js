@@ -110,3 +110,20 @@ const solutionContainerTwoParagraph = document.getElementById(
 // registrate container
 const registerParagraph = document.querySelector(".registrate-paragraph");
 const registerLink = document.querySelector(".registrate-link");
+
+// contact us labels
+// header:
+const formHeaderTitle = document.querySelector(".form-header-title");
+const formHeaderParagraph = document.querySelector(".form-header-paragraph");
+
+// form:
+const formNameSpan = document.getElementById("form-name");
+const formCompanySpan = document.getElementById("form-company");
+const formPhoneSpan = document.getElementById("form-phone");
+const formMessageSpan = document.getElementById("form-message");
+const formPolicies = document.querySelector(".policy-paragraph");
+const formNamePlaceholder = document.getElementById("name");
+const formEmailPlaceholder = document.getElementById("email");
+const formCompanyPlaceholder = document.getElementById("compañia");
+const formMessagePlaceholder = document.getElementById("mensaje");
+const formSubmitValue = document.querySelector(".submit-btn");

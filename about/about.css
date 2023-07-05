@@ -1,7 +1,7 @@
 /* about */
 .about-container {
   width: 60vw;
-  padding: 0 var(--padding-61xl) var(--padding-35xl) var(--padding-61xl);
+  padding: var(--padding-35xl) var(--padding-61xl);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
 
 .about-title {
   color: var(--neutral-900);
+  font-size: var(--heading-h5-regular-size);
 }
 
 .about-paragraph {

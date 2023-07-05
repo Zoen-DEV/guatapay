@@ -165,3 +165,42 @@ const homeContent = {
     },
   },
 };
+
+const aboutContent = {
+  about: {
+    title: {
+      es: "Nosotros",
+      en: "Who we are",
+    },
+    paragraph: {
+      es: "Somos un grupo de amantes de Bitcoin y su tecnología. Estamos convencidos que Bitcoin hará de la industria financiera un espacio justo, incluyente y de acceso abierto.",
+      en: "We are a group of Bitcoin lovers and its technology. We are convinced that Bitcoin will make the financial industry a fair, inclusive and open access space.",
+    },
+  },
+  guatapay: {
+    span: {
+      es: "QUEREMOS SER PARTE DE LA CONSTRUCCIÓN DE UN",
+      en: "WE WANT TO BE PART OF THE CONSTRUCTION OF A",
+    },
+    long: {
+      es: "Nuevo sistema financiero, en el que las criptomonedas sean la infraestructura en la que cualquier usuario se transforme en un microcanal, democratizando el poder del dinero.",
+      en: "New financial system, in which cryptocurrencies are the infrastructure in which infrastructure in which any user becomes a micro-channel, democratizing the power of money. micro-channel, democratizing the power of money.",
+    },
+    mobile: {
+      es: "Queremos ser parte de la construcción de un nuevo sistema financiero en el que las criptomonedas sean la infraestructura en la que cualquier usuario se transforme en un microcanal, democratizando el poder del dinero.",
+      en: "We want to be part of building a new financial system where cryptocurrencies are the infrastructure where cryptocurrencies are the infrastructure in which any user becomes a microchannel any user becomes a micro-channel, democratizing the power of money. democratizing the power of money.",
+    },
+  },
+  weBelieve: {
+    es: "Por eso, creamos la infraestructura de pagos en criptomonedas que permitirá a las personas, comercios y empresas transformarse en microentidades que puedan proveer servicios financieros alternativos y abrir fácilmente canales transaccionales digitales alrededor del mundo.",
+    en: "That is why we have created the cryptocurrency payment infrastructure that will allow individuals, businesses and companies to become micro-entities that can micro-entities that can provide alternative financial services and easily open digital transactional easily open digital transactional channels around the world. the world.",
+  },
+  currencies: {
+    es: "Guatapay es una infraestructura de aceptación de pagos con Bitcoin, Lightning Network y las criptomonedas de mayor impacto en el entorno económico global.",
+    en: "Guatapay is a Bitcoin payment acceptance infrastructure, Lightning Network and the cryptocurrencies with the greatest impact on the global economic environment. global economic environment.",
+  },
+  ourService: {
+    es: "Nuestro servicio de gateway de pagos permite a las personas, comercios y compañías realizar y recibir pagos instantáneamente, 24/7, desde cualquier lugar conectado a internet en el mundo, convirtiéndolos en tu moneda local y, lo mejor de todo, al costo más competitivo del mercado de pagos digitales global.",
+    en: "Our payment gateway service allows individuals, merchants and companies to make and receive payments instantly, 24/7, from any internet-connected location in the world, converting them into your local currency and, best of all, at the most competitive cost in the global digital payments market.",
+  },
+};

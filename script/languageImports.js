@@ -21,6 +21,7 @@ const nexsletterParagraph = document.querySelector(".nexsletter-paragraph");
 const nexsletterBtn = document.querySelector(".nexsletter-submit");
 const copyrightParagraph = document.querySelector(".copyright-paragraph");
 
+// Home labels
 // hero:
 const easyLabel = document.querySelector(".fcil-rpido-y");
 const sendLabel = document.querySelector(".enva-y-recibe");
@@ -58,3 +59,22 @@ const testimonyContext = document.getElementById("testimony-context");
 // solicitar demo:
 const requestParagraph = document.querySelector(".olvdate-de-las");
 const registerLabel2 = document.querySelector(".label7");
+
+// About labels
+// about container:
+const aboutTitle = document.querySelector(".about-title");
+const aboutParagraph = document.querySelector(".about-paragraph");
+
+// guatapay container:
+const guatapaySpan = document.querySelector(".guatapay-info-span");
+const guatapayLabel = document.querySelector(".long-screen-info");
+const guatapayLabelMobile = document.querySelector(".mobile-info");
+
+// we believe container:
+const weBelieveParagraph = document.querySelector(".we-believe-paragraph");
+
+// Currencies container:
+const currenciesParagraph = document.querySelector(".currencies-paragraph");
+
+// our service container:
+const ourServiceParagraph = document.querySelector(".our-service-paragraph");

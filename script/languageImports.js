@@ -78,3 +78,35 @@ const currenciesParagraph = document.querySelector(".currencies-paragraph");
 
 // our service container:
 const ourServiceParagraph = document.querySelector(".our-service-paragraph");
+
+// Solutions labels
+const learnMoreLink = document.querySelectorAll(".solutions-content-link");
+// solutions:
+const solutionTitle = document.querySelector(".solutions-title");
+const solutionParagraph = document.querySelector(".solutions-paragraph");
+
+// solutions container
+const solutionContainerTitle = document.getElementById("solutions-title");
+const solutionConainerParagraph = document.getElementById(
+  "solutions-paragraph"
+);
+
+// solutions container 1
+const solutionContainerOneTitle = document.getElementById(
+  "solutions-one-title"
+);
+const solutionContainerOneParagraph = document.getElementById(
+  "solutions-one-paragraph"
+);
+
+// solutions container 2
+const solutionContainerTwoTitle = document.getElementById(
+  "solutions-two-title"
+);
+const solutionContainerTwoParagraph = document.getElementById(
+  "solutions-two-paragraph"
+);
+
+// registrate container
+const registerParagraph = document.querySelector(".registrate-paragraph");
+const registerLink = document.querySelector(".registrate-link");

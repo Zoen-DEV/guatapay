@@ -204,3 +204,62 @@ const aboutContent = {
     en: "Our payment gateway service allows individuals, merchants and companies to make and receive payments instantly, 24/7, from any internet-connected location in the world, converting them into your local currency and, best of all, at the most competitive cost in the global digital payments market.",
   },
 };
+
+const solutionsContent = {
+  global: {
+    a: {
+      es: "Saber más",
+      en: "Learn more",
+    },
+  },
+  solutions: {
+    title: {
+      es: "Soluciones Guatapay",
+      en: "Guatapay solutions",
+    },
+    paragraph: {
+      es: "Semper risus in hendrerit gravida rutrum quisque. In ornare quam viverra orci sagittis eu volutpat odio. Nisi porta lorem mollis aliquam. Tellus in metus vulputate.",
+      en: "Semper risus in hendrerit gravida rutrum quisque. In ornare quam viverra orci sagittis eu volutpat odio. Nisi porta lorem mollis aliquam. Tellus in metus vulputate.",
+    },
+  },
+  container: {
+    title: {
+      es: "Comercio electrónico",
+      en: "E-commerce",
+    },
+    paragraph: {
+      es: "Integra la pasarela de pagos de Guatapay con tu tienda online en unos pocos clics y atrae a nuevos clientes en todo el mundo.",
+      en: "Integrate Guatapay's payment gateway with your online store in just a few clicks and a few clicks and attract new customers worldwide.",
+    },
+  },
+  container_one: {
+    title: {
+      es: "Proveedor de servicios de pago",
+      en: "Payment service provider",
+    },
+    paragraph: {
+      es: "Añade criptomonedas como nuevo método de pago a tu pasarela de pago y captura las transacciones de más clientes.",
+      en: "Add crypto-currencies as a new payment method to your payment gateway and capture more customers transactions.",
+    },
+  },
+  container_two: {
+    title: {
+      es: "Solicitud de pagos con link",
+      en: "Payment request with link",
+    },
+    paragraph: {
+      es: "Acepta pagos con criptomonedas con un solo enlace y sin codificación. Crea el enlace de pago y envíalo por correo electrónico.",
+      en: "Accept cryptocurrency payments with a single link and no encryption. Create the payment link and send it by email.",
+    },
+  },
+  registrate: {
+    paragraph: {
+      es: "Olvídate de las complejidades y comienza a mover tu dinero libremente de forma rápida y a bajos costos de comisión hoy mismo.",
+      en: "Forget the complexities and start moving your money freely, quickly and at low commission costs today.",
+    },
+    a: {
+      es: "Registrarse ahora",
+      en: "Register now",
+    },
+  },
+};

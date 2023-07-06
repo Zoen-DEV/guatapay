@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <div class="landing">
+    <main class="landing">
       <header class="header-container">
         <nav class="nav-container">
           <a class="logo-container" href="/index.html">
@@ -40,56 +40,97 @@
               <div class="solutions-sublinks-container">
                 <a
                   class="solution-sublink placeholder"
+                  id="ecommerce-link"
                   href="/solutions/index.html"
                   >Comercio electrónico
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="paid-service-link"
                   href="/solutions/index.html"
                   >Servicios de pago
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="payment-link"
                   href="/solutions/index.html"
                   >Link de pagos
                 </a>
               </div>
             </div>
-            <a class="nav-link" href="/about/index.html">Sobre Nosotros</a>
-            <a class="nav-link" href="/contactus/index.html">Contacto</a>
+            <a class="nav-link" id="about-link" href="/about/index.html"
+              >Sobre Nosotros</a
+            >
+            <a class="nav-link" id="contact-link" href="/contactus/index.html"
+              >Contacto</a
+            >
             <div class="language-container">
               <img class="icono" alt="" src="/public/icono.svg" />
 
               <div class="menu-language">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language placeholder" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es"> Español </span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language placeholder" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
               <div class="menu-language-tablet">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es">Español</span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
             </div>
@@ -228,7 +269,7 @@
                   src="./public/media--flags.svg"
                 />
 
-                <div class="estados-unidos">Estados Unidos</div>
+                <div class="estados-unidos" id="eeuu-label">Estados Unidos</div>
               </div>
               <div class="usa">
                 <img
@@ -270,19 +311,19 @@
                   src="./public/media--flags41.svg"
                 />
 
-                <div class="estados-unidos">Perú</div>
+                <div class="estados-unidos" id="pe-label">Perú</div>
               </div>
               <div class="usa">
                 <img class="media-flags" alt="" src="./public/br.svg" />
 
-                <div class="estados-unidos">Brasil</div>
+                <div class="estados-unidos" id="br-label">Brasil</div>
               </div>
             </div>
             <div class="us-co">
               <div class="usa">
                 <img class="media-flags" alt="" src="./public/br1.svg" />
 
-                <div class="estados-unidos">España</div>
+                <div class="estados-unidos" id="es-label">España</div>
               </div>
               <div class="more">
                 <div class="media-flags">
@@ -295,7 +336,7 @@
                     src="./public/add-fill0-wght200-grad0-opsz24-1.svg"
                   />
                 </div>
-                <div class="estados-unidos">Próximamente</div>
+                <div class="estados-unidos" id="coming-label">Próximamente</div>
               </div>
             </div>
           </div>
@@ -357,7 +398,9 @@
         <div class="text-tablet">
           <div class="text4">
             <div class="title-overline3">
-              <div class="fcil-rpido-y2">Fácil, rápido y seguro</div>
+              <div class="fcil-rpido-y2" id="fcil-rpido-y3">
+                Fácil, rápido y seguro
+              </div>
               <b class="sin-complejidades2">Sin complejidades</b>
             </div>
             <div class="mueve-tu-dinero1">
@@ -419,7 +462,7 @@
               <b class="nadia-bruckerman">Nadia Bruckerman</b>
             </div>
             <div class="position">
-              <div class="nadia-bruckerman">
+              <div class="nadia-bruckerman" id="testimony-context">
                 Colombiana viviendo en Estados Unidos
               </div>
             </div>
@@ -453,10 +496,34 @@
             />
           </a>
           <div class="footer-links-container">
-            <a class="footer-link" href="/solutions/index.html"> Servicios </a>
-            <a class="footer-link1" href="/solutions/index.html"> Rescursos </a>
-            <a class="footer-link" href="/about/index.html"> Sobre Nosotros </a>
-            <a class="footer-link" href="/contactus/index.html"> Contactar </a>
+            <a
+              class="footer-link"
+              id="services-footer-link"
+              href="/services/index.html"
+            >
+              Servicios
+            </a>
+            <a
+              class="footer-link1"
+              id="resources-footer-link"
+              href="/services/index.html"
+            >
+              Recursos
+            </a>
+            <a
+              class="footer-link"
+              id="about-footer-link"
+              href="/about/index.html"
+            >
+              Sobre Nosotros
+            </a>
+            <a
+              class="footer-link"
+              id="contact-footer-link"
+              href="/contactus/index.html"
+            >
+              Contactar
+            </a>
           </div>
         </div>
         <div class="footer-newslatter-container">
@@ -476,7 +543,7 @@
         </div>
       </footer>
       <div class="landing-child"></div>
-    </div>
+    </main>
 
     <script>
       var buttonLargeSecondary = document.getElementById(
@@ -494,5 +561,10 @@
       }
     </script>
     <script src="/script/toggleMenu.js"></script>
+    <script src="/script/switchLanguage.js"></script>
+    <script src="/script/languageImports.js"></script>
+    <script src="/script/languageData.js"></script>
+    <script src="/script/navFooterLanguage.js"></script>
+    <script src="/script/homeLanguage.js"></script>
   </body>
 </html>

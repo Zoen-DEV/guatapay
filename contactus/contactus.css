@@ -51,10 +51,12 @@
   width: 50%;
   gap: var(--gap-5xs);
   margin-bottom: var(--gap-13xl);
+  font-family: var(--paragraph-small-regular);
 }
 
 .mensaje-label {
   width: 100%;
+  font-family: var(--paragraph-small-regular);
 }
 
 .contactus-form-input {
@@ -92,6 +94,7 @@
   padding: var(--padding-xs) var(--padding-3xs);
   border-radius: var(--br-7xs);
   border: 1px solid var(--neutral-200);
+  margin-top: var(--gap-5xs);
   resize: none;
 }
 
@@ -112,6 +115,14 @@
   font-size: var(--paragraph-small-regular-size);
   font-weight: 500;
   color: var(--generic-white);
+  font-family: var(--paragraph-small-regular);
+}
+
+.submit-btn:hover {
+  background-color: var(--color-mediumslateblue-100);
+}
+.submit-btn:active {
+  background-color: var(--color-darkblue);
 }
 
 .policy-paragraph {

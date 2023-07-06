@@ -714,8 +714,7 @@
   left: calc(50% - 211.36px);
   border-radius: 19.5px;
   background-color: var(--generic-white);
-  box-shadow: 8px 16px 48px rgba(0, 0, 0, 0.25),
-    0 0 0 5px rgba(100, 102, 233, 0.25);
+  box-shadow: 8px 16px 48px rgba(0, 0, 0, 0.25), 0 0 0 5px rgba(100, 102, 233, 0.25);
   width: 328px;
   height: 117px;
   overflow: hidden;
@@ -767,7 +766,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 288px;
+  width: 50vw;
 }
 .title-overline3 {
   align-self: stretch;
@@ -862,9 +861,7 @@
   left: calc(50% - 147.32px);
   border-radius: 17.51px;
   background-color: var(--generic-white);
-  box-shadow: 7.183139324188232px 14.366278648376465px 43.1px
-      rgba(0, 0, 0, 0.25),
-    0 0 0 4.49px rgba(100, 102, 233, 0.25);
+  box-shadow: 7.183139324188232px 14.366278648376465px 43.1px rgba(0, 0, 0, 0.25), 0 0 0 4.49px rgba(100, 102, 233, 0.25);
   width: 294.51px;
   height: 105.05px;
   overflow: hidden;
@@ -1448,10 +1445,12 @@
   .fila-1,
   .fila-2,
   .us-co {
-    gap: var(--gap-base);
+    gap: var(--gap-5xs);
   }
   .countries {
-    flex-direction: column;
+    width: 100vw;
+    flex-direction: row;
+    gap: var(--gap-5xs);
   }
   .llegamos-a-cada-rincon {
     flex-direction: column;
@@ -1526,6 +1525,12 @@
   }
 }
 @media screen and (max-width: 430px) {
+  .ch-ar,
+  .fila-1,
+  .fila-2,
+  .us-co {
+    gap: var(--gap-5xs);
+  }
   /* mobile menu -> */
   .language-icon {
     display: none;

@@ -102,9 +102,10 @@ const handleSubmitEmail = (e) => {
   } else if (bodyObject.description.trim().length > 200) {
     messageError.textContent = language === 'es' ? 'El mensaje no puede contener mas de 200 caracteres' : 'The message cannot contain more than 200 characters'
   } else {
-    postEmailData(bodyObject)
+    const response = postEmailData(bodyObject)
     resetForm()
     alertSendDataForm()
+    console.log({ response })
   }
 }
 

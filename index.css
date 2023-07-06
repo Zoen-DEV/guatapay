@@ -633,7 +633,7 @@
 .button-large-primary {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-xs) var(--padding-xl);
+  padding: var(--padding-3xs) var(--padding-base);
   background-color: var(--secondary-500-main);
   border-radius: var(--br-7xs);
   overflow: hidden;
@@ -642,6 +642,12 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-5xs);
+  font-size: var(--paragraph-small-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--paragraph-small-regular);
+  color: var(--generic-white);
+  text-align: center;
 }
 .button-large-primary:hover {
   background-color: var(--color-mediumslateblue-100);

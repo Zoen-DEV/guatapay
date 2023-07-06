@@ -2,7 +2,7 @@
 .about-container {
   width: 60vw;
   padding: var(--padding-35xl) var(--padding-61xl);
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,7 @@
   color: var(--neutral-400);
   font-size: var(--paragraph-large-regular-size);
   text-align: center;
+  line-height: var(--padding-5xl);
 }
 
 /* what is guatapay */

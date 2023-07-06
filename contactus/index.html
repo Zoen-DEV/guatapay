@@ -40,56 +40,97 @@
               <div class="solutions-sublinks-container">
                 <a
                   class="solution-sublink placeholder"
+                  id="ecommerce-link"
                   href="/solutions/index.html"
                   >Comercio electrónico
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="paid-service-link"
                   href="/solutions/index.html"
                   >Servicios de pago
                 </a>
                 <a
                   class="solution-sublink placeholder"
+                  id="payment-link"
                   href="/solutions/index.html"
                   >Link de pagos
                 </a>
               </div>
             </div>
-            <a class="nav-link" href="/about/index.html">Sobre Nosotros</a>
-            <a class="nav-link" href="/contactus/index.html">Contacto</a>
+            <a class="nav-link" id="about-link" href="/about/index.html"
+              >Sobre Nosotros</a
+            >
+            <a class="nav-link" id="contact-link" href="/contactus/index.html"
+              >Contacto</a
+            >
             <div class="language-container">
               <img class="icono" alt="" src="/public/icono.svg" />
 
               <div class="menu-language">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language placeholder" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es"> Español </span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language placeholder" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
               <div class="menu-language-tablet">
-                <button class="button-language">
-                  <img class="flag-icon" alt="" src="/public/flag.svg" />
-
-                  <img class="flag-icon1" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Español</div>
+                <button class="button-language" name="es">
+                  <img
+                    class="flag-icon"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon1"
+                    alt="spanish flag"
+                    name="es"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-es" id="es">Español</span>
                 </button>
-                <button class="button-language">
-                  <img class="flag-icon1" alt="" src="/public/flag.svg" />
 
-                  <img class="flag-icon" alt="" src="/public/flag1.svg" />
-
-                  <div class="placeholder">Inglés</div>
+                <button class="button-language" name="en">
+                  <img
+                    class="flag-icon1"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag.svg"
+                  />
+                  <img
+                    class="flag-icon"
+                    alt="english flag"
+                    name="en"
+                    src="/public/flag1.svg"
+                  />
+                  <span class="button-language-span-en" id="en">Inglés</span>
                 </button>
               </div>
             </div>
@@ -159,7 +200,7 @@
 
         <form class="contactus-form" id="contactus-form">
           <label class="contactus-form-label">
-            <span>Nombre</span>
+            <span id="form-name">Nombre</span>
             <input
               type="text"
               id="name"
@@ -174,11 +215,11 @@
               type="text"
               id="email"
               name="email"
-              placeholder="Ingresa tu apellido"
+              placeholder="Ingresa tu correo"
               class="contactus-form-input"
           /></label>
           <label class="contactus-form-label">
-            <span>Compañía (opcional)</span>
+            <span id="form-company">Compañía (opcional)</span>
             <input
               type="text"
               id="compañia"
@@ -187,7 +228,7 @@
               class="contactus-form-input"
           /></label>
           <label class="contactus-form-label">
-            <span>Télefono</span>
+            <span id="form-phone">Télefono</span>
             <input
               type="text"
               id="telefono"
@@ -196,7 +237,7 @@
               class="contactus-form-input"
           /></label>
           <label class="mensaje-label">
-            <span>Mensaje</span>
+            <span id="form-message">Mensaje</span>
             <textarea
               rows="8"
               cols="40"
@@ -226,10 +267,34 @@
             />
           </a>
           <div class="footer-links-container">
-            <a class="footer-link" href="/solutions/index.html"> Servicios </a>
-            <a class="footer-link1" href="/solutions/index.html"> Rescursos </a>
-            <a class="footer-link" href="/about/index.html"> Sobre Nosotros </a>
-            <a class="footer-link" href="/contactus/index.html"> Contactar </a>
+            <a
+              class="footer-link"
+              id="services-footer-link"
+              href="/services/index.html"
+            >
+              Servicios
+            </a>
+            <a
+              class="footer-link1"
+              id="resources-footer-link"
+              href="/services/index.html"
+            >
+              Recursos
+            </a>
+            <a
+              class="footer-link"
+              id="about-footer-link"
+              href="/about/index.html"
+            >
+              Sobre Nosotros
+            </a>
+            <a
+              class="footer-link"
+              id="contact-footer-link"
+              href="/contactus/index.html"
+            >
+              Contactar
+            </a>
           </div>
         </div>
         <div class="footer-newslatter-container">
@@ -251,5 +316,10 @@
     </main>
 
     <script src="/script/toggleMenu.js"></script>
+    <script src="/script/switchLanguage.js"></script>
+    <script src="/script/languageImports.js"></script>
+    <script src="/script/languageData.js"></script>
+    <script src="/script/navFooterLanguage.js"></script>
+    <script src="/script/contactLanguage.js"></script>
   </body>
 </html>

@@ -633,7 +633,7 @@
 .button-large-primary {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-xs) var(--padding-xl);
+  padding: var(--padding-3xs) var(--padding-base);
   background-color: var(--secondary-500-main);
   border-radius: var(--br-7xs);
   overflow: hidden;
@@ -642,6 +642,12 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-5xs);
+  font-size: var(--paragraph-small-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--paragraph-small-regular);
+  color: var(--generic-white);
+  text-align: center;
 }
 .button-large-primary:hover {
   background-color: var(--color-mediumslateblue-100);
@@ -714,8 +720,7 @@
   left: calc(50% - 211.36px);
   border-radius: 19.5px;
   background-color: var(--generic-white);
-  box-shadow: 8px 16px 48px rgba(0, 0, 0, 0.25),
-    0 0 0 5px rgba(100, 102, 233, 0.25);
+  box-shadow: 8px 16px 48px rgba(0, 0, 0, 0.25), 0 0 0 5px rgba(100, 102, 233, 0.25);
   width: 328px;
   height: 117px;
   overflow: hidden;
@@ -862,9 +867,7 @@
   left: calc(50% - 147.32px);
   border-radius: 17.51px;
   background-color: var(--generic-white);
-  box-shadow: 7.183139324188232px 14.366278648376465px 43.1px
-      rgba(0, 0, 0, 0.25),
-    0 0 0 4.49px rgba(100, 102, 233, 0.25);
+  box-shadow: 7.183139324188232px 14.366278648376465px 43.1px rgba(0, 0, 0, 0.25), 0 0 0 4.49px rgba(100, 102, 233, 0.25);
   width: 294.51px;
   height: 105.05px;
   overflow: hidden;

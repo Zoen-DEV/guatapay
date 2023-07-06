@@ -1531,6 +1531,9 @@
   }
 }
 @media screen and (max-width: 430px) {
+  .sin-complejidades2 {
+    width: 95vw;
+  }
   .ch-ar,
   .fila-1,
   .fila-2,

@@ -125,10 +125,22 @@
   background-color: var(--color-darkblue);
 }
 
+.success-form-message {
+  margin-top: var(--gap-base);
+  margin-left: var(--gap-13xl);
+  align-self: center;
+}
+
 .policy-paragraph {
   font-size: var(--overline-small-size);
   color: var(--neutral-400);
   margin-top: var(--padding-xl);
+}
+
+.error-message {
+  color: var(--destructive-500);
+  font-size: var(--overline-small-size);
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {

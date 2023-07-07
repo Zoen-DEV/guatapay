@@ -62,6 +62,7 @@
 }
 
 .solutions-content-link {
+  all: unset;
   margin: 0;
   margin-top: var(--gap-21xl);
   color: var(--secondary-500-main);
@@ -69,6 +70,7 @@
   width: var(--padding-61xl);
   text-align: center;
   font-weight: 500;
+  font-family: var(--paragraph-small-regular);
 }
 
 .solutions-content-link:hover {
@@ -93,8 +95,10 @@
 }
 
 .registrate-link {
+  all: unset;
   color: var(--neutral-900);
   background-color: var(--neutral-200);
+  font-family: var(--paragraph-small-regular);
 }
 
 .registrate-link:hover {

@@ -208,9 +208,6 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.menu-language-tablet {
-  left: -164px;
-}
 .language-container {
   position: relative;
   width: 40px;
@@ -1389,9 +1386,13 @@
   .nav-link {
     display: none;
   }
-  .language-container:hover .menu-language-tablet,
+  .language-container:hover .menu-language,
   .menu-button {
     display: flex;
+  }
+  .menu-language {
+    margin-top: var(--gap-base);
+    left: -164px;
   }
   .nav-container {
     padding-left: var(--padding-17xl);

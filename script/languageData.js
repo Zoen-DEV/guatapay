@@ -99,7 +99,7 @@ const homeContent = {
     },
     paragraph: {
       es: "Tenemos presencia en los principales países donde los latinoamericanos necesitan nuestra solución. Nuestra misión es llevar nuestro servicio a cada rincón del mundo.",
-      en: "We are present in the main countries where Latin Americans Latin Americans need our solution. Our mission is to bring our service to every corner of the world.",
+      en: "We have presence in the main countries where Latin Americans need our solution. Our mission is to bring our service to every corner of the world.",
     },
     eeuu: {
       es: "Estados Unidos",
@@ -157,7 +157,7 @@ const homeContent = {
   request: {
     paragraph: {
       es: "Olvídate de las complejidades y comienza a mover tu dinero libremente de forma rápida y a bajos costos de comisión hoy mismo.",
-      en: "Forget the complexities and start moving your money freely, quickly and at low freely, quickly and at low commission costs today.",
+      en: "Forget the complexities and start moving your money freely, quickly and at low commission costs today.",
     },
     register: {
       es: "Registrarse Ahora",
@@ -184,20 +184,20 @@ const aboutContent = {
     },
     long: {
       es: "Nuevo sistema financiero, en el que las criptomonedas sean la infraestructura en la que cualquier usuario se transforme en un microcanal, democratizando el poder del dinero.",
-      en: "New financial system, in which cryptocurrencies are the infrastructure in which infrastructure in which any user becomes a micro-channel, democratizing the power of money. micro-channel, democratizing the power of money.",
+      en: "New financial system, in which cryptocurrencies are the infrastructure in which any user becomes a micro-channel, democratizing the power of money.",
     },
     mobile: {
       es: "Queremos ser parte de la construcción de un nuevo sistema financiero en el que las criptomonedas sean la infraestructura en la que cualquier usuario se transforme en un microcanal, democratizando el poder del dinero.",
-      en: "We want to be part of building a new financial system where cryptocurrencies are the infrastructure where cryptocurrencies are the infrastructure in which any user becomes a microchannel any user becomes a micro-channel, democratizing the power of money. democratizing the power of money.",
+      en: "We want to be part of the construction of a new financial system in which cryptocurrencies are the infrastructure in which any user becomes a micro-channel, democratizing the power of money.",
     },
   },
   weBelieve: {
     es: "Por eso, creamos la infraestructura de pagos en criptomonedas que permitirá a las personas, comercios y empresas transformarse en microentidades que puedan proveer servicios financieros alternativos y abrir fácilmente canales transaccionales digitales alrededor del mundo.",
-    en: "That is why we have created the cryptocurrency payment infrastructure that will allow individuals, businesses and companies to become micro-entities that can micro-entities that can provide alternative financial services and easily open digital transactional easily open digital transactional channels around the world. the world.",
+    en: "That's why we created the cryptocurrency payment infrastructure that will enable individuals, merchants and businesses to transform themselves into micro-entities that can provide alternative financial services and easily open digital transactional channels around the world.",
   },
   currencies: {
     es: "Guatapay es una infraestructura de aceptación de pagos con Bitcoin, Lightning Network y las criptomonedas de mayor impacto en el entorno económico global.",
-    en: "Guatapay is a Bitcoin payment acceptance infrastructure, Lightning Network and the cryptocurrencies with the greatest impact on the global economic environment. global economic environment.",
+    en: "Guatapay is a payment acceptance infrastructure for Bitcoin, Lightning Network and the cryptocurrencies with the greatest impact on the global economic environment.",
   },
   ourService: {
     es: "Nuestro servicio de gateway de pagos permite a las personas, comercios y compañías realizar y recibir pagos instantáneamente, 24/7, desde cualquier lugar conectado a internet en el mundo, convirtiéndolos en tu moneda local y, lo mejor de todo, al costo más competitivo del mercado de pagos digitales global.",
@@ -229,7 +229,7 @@ const solutionsContent = {
     },
     paragraph: {
       es: "Integra la pasarela de pagos de Guatapay con tu tienda online en unos pocos clics y atrae a nuevos clientes en todo el mundo.",
-      en: "Integrate Guatapay's payment gateway with your online store in just a few clicks and a few clicks and attract new customers worldwide.",
+      en: "Integrate Guatapay's payment gateway with your online store in a few clicks and attract new customers worldwide.",
     },
   },
   container_one: {
@@ -239,7 +239,7 @@ const solutionsContent = {
     },
     paragraph: {
       es: "Añade criptomonedas como nuevo método de pago a tu pasarela de pago y captura las transacciones de más clientes.",
-      en: "Add crypto-currencies as a new payment method to your payment gateway and capture more customers transactions.",
+      en: "Add cryptocurrencies as a new payment method to your payment gateway and capture more customers transactions.",
     },
   },
   container_two: {

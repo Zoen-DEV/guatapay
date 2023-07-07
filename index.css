@@ -208,9 +208,6 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.menu-language-tablet {
-  left: -164px;
-}
 .language-container {
   position: relative;
   width: 40px;
@@ -772,7 +769,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 288px;
+  width: 50vw;
 }
 .title-overline3 {
   align-self: stretch;
@@ -1389,9 +1386,13 @@
   .nav-link {
     display: none;
   }
-  .language-container:hover .menu-language-tablet,
+  .language-container:hover .menu-language,
   .menu-button {
     display: flex;
+  }
+  .menu-language {
+    margin-top: var(--gap-base);
+    left: -164px;
   }
   .nav-container {
     padding-left: var(--padding-17xl);
@@ -1451,10 +1452,12 @@
   .fila-1,
   .fila-2,
   .us-co {
-    gap: var(--gap-base);
+    gap: var(--gap-5xs);
   }
   .countries {
-    flex-direction: column;
+    width: 100vw;
+    flex-direction: row;
+    gap: var(--gap-5xs);
   }
   .llegamos-a-cada-rincon {
     flex-direction: column;
@@ -1529,6 +1532,15 @@
   }
 }
 @media screen and (max-width: 430px) {
+  .sin-complejidades2 {
+    width: 95vw;
+  }
+  .ch-ar,
+  .fila-1,
+  .fila-2,
+  .us-co {
+    gap: var(--gap-5xs);
+  }
   /* mobile menu -> */
   .language-icon {
     display: none;

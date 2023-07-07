@@ -55,6 +55,7 @@ const handleOnChange = (e) => {
 }
 
 const postEmailData = async (data) => {
+  const url = 'https://k2mx3b70i6.execute-api.us-east-1.amazonaws.com/dev/'
   const response = await fetch(url, {
     method: 'POST',
     headers: {

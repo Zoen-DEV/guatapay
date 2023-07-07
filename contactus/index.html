@@ -92,24 +92,30 @@
           <label class="contactus-form-label">
             <span id="form-name">Nombre</span>
             <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" class="contactus-form-input" />
+            <p class="error-message" id="name-error"></p>
           </label>
           <label class="contactus-form-label">
             <span>Email</span>
-            <input type="text" id="email" name="email" placeholder="Ingresa tu correo" class="contactus-form-input"
-          /></label>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu correo" class="contactus-form-input" />
+            <p class="error-message" id="email-error"></p>
+          </label>
           <label class="contactus-form-label">
             <span id="form-company">Compañía (opcional)</span>
-            <input type="text" id="compañia" name="compañia" placeholder="Ingresa tu compañía" class="contactus-form-input"
-          /></label>
+            <input type="text" id="compañia" name="compañia" placeholder="Ingresa tu compañía" class="contactus-form-input" />
+            <p class="error-message" id="company-error"></p>
+          </label>
           <label class="contactus-form-label">
             <span id="form-phone">Télefono</span>
-            <input type="text" id="telefono" name="telefono" placeholder="+1 201-555-0123" class="contactus-form-input"
-          /></label>
+            <input type="text" id="telefono" name="telefono" placeholder="+1 201-555-0123" class="contactus-form-input" />
+            <p class="error-message" id="phone-error"></p>
+          </label>
           <label class="mensaje-label">
             <span id="form-message">Mensaje</span>
             <textarea rows="8" cols="40" type="text" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+            <p class="error-message" id="message-error"></p>
           </label>
           <input type="submit" class="submit-btn" value="Enviar mensaje" />
+          <span class="success-form-message"></span>
           <p class="policy-paragraph">
             Al pulsar el botón “Enviar mensaje”, acepto que Guatapay se ponga en contacto conmigo por correo electrónico y/o teléfono. También entiendo que cualquier información que he compartido en este formulario está
             sujeta a la Política de Privacidad de Guatapay.
@@ -149,5 +155,6 @@
     <script src="/script/languageData.js"></script>
     <script src="/script/navFooterLanguage.js"></script>
     <script src="/script/contactLanguage.js"></script>
+    <script src="/script/sendEmail.js"></script>
   </body>
 </html>

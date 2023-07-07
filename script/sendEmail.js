@@ -20,7 +20,6 @@ const formAlert = document.querySelector('.success-form-message')
 // request body
 const initialState = {
   name: '',
-  lastName: '',
   phoneNumber: '',
   email: '',
   description: ''
@@ -38,7 +37,7 @@ const handleOnChange = (e) => {
       emailError.textContent = ''
       break
     case 'compañia':
-      bodyObject.lastName = e.target.value
+      bodyObject.company = e.target.value
       companyError.textContent = ''
       break
     case 'telefono':

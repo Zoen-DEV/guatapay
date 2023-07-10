@@ -76,10 +76,11 @@ const resetForm = () => {
 }
 
 const alertSendDataForm = () => {
-  formAlert.textContent = language === 'es' ? 'Mensaje enviado con exito' : 'Message sent successfully'
+  formAlert.textContent = language === 'es' ? 'Mensaje enviado con exito 👍' : 'Message sent successfully 👍'
+  formAlert.classList.add('show-send-alert')
   setTimeout(() => {
-    formAlert.textContent = ''
-  }, 4000)
+    formAlert.classList.remove('show-send-alert')
+  }, 6000)
 }
 
 const handleSubmitEmail = (e) => {

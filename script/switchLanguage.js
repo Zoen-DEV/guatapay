@@ -1,6 +1,6 @@
 const buttonsLanguage = document.querySelectorAll('.button-language')
 const languageFromLocalStorage = window.localStorage.getItem('language')
-const defaultLanguage = 'es'
+const defaultLanguage = navigator.language || navigator.userLanguage || 'es'
 let language = languageFromLocalStorage ? languageFromLocalStorage : defaultLanguage
 
 fetch('http://ip-api.com/json/')
@@ -15,6 +15,13 @@ fetch('http://ip-api.com/json/')
   })
   .catch((data, status) => {
     console.log('Request country failed')
+    if (language !== 'es' || language !== 'en') {
+      if (languageFromLocalStorage) {
+        language = languageFromLocalStorage
+      } else {
+        language = defaultLanguage === 'es' || defaultLanguage === 'en' ? defaultLanguage : 'es'
+      }
+    }
   })
 
 // Event listener to switch language buttons

@@ -150,6 +150,7 @@
 }
 
 .policy-paragraph {
+  width: 100%;
   font-size: var(--overline-small-size);
   color: var(--neutral-400);
   margin-top: var(--padding-xl);

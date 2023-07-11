@@ -1,6 +1,6 @@
 const buttonsLanguage = document.querySelectorAll('.button-language')
 const languageFromLocalStorage = window.localStorage.getItem('language')
-const defaultLanguage = navigator.language || navigator.userLanguage || 'es'
+const defaultLanguage = navigator.language || 'es'
 let language = languageFromLocalStorage ? languageFromLocalStorage : defaultLanguage
 
 if (!languageFromLocalStorage) {

@@ -133,7 +133,7 @@
   left: 78vw;
   padding: var(--padding-xl) var(--padding-5xl);
   box-shadow: 2px 2px 8px 0 var(--neutral-900-shadow);
-  animation: 2s ease fade-in;
+  animation: 1s ease fade-in;
   border-radius: var(--br-7xs);
   background-color: var(--secondary-500-main);
   margin-top: var(--gap-base);

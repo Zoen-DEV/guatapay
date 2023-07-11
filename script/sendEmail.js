@@ -76,7 +76,6 @@ const resetForm = () => {
 }
 
 const alertSendDataForm = () => {
-  formAlert.textContent = language === 'es' ? 'Mensaje enviado con exito 👍' : 'Message sent successfully 👍'
   formAlert.classList.add('show-send-alert')
   setTimeout(() => {
     formAlert.classList.remove('show-send-alert')
@@ -89,19 +88,19 @@ const handleSubmitEmail = (e) => {
   const phoneRegEx = /^\s*(?:\+?(\d{1,3}))?([-. (]*(\d{3})[-. )]*)?((\d{3})[-. ]*(\d{2,4})(?:[-.x ]*(\d+))?)\s*$/gm
 
   if (bodyObject.name.trim().length === 0) {
-    nameError.textContent = language === 'es' ? 'El campo nombre no puede estar vacio' : 'The name field cannot be empty'
+    nameError.textContent = contactContent.errors.name[language]
   } else if (bodyObject.email.trim().length === 0) {
-    emailError.textContent = language === 'es' ? 'El campo email no puede estar vacio' : 'The email field cannot be empty'
+    emailError.textContent = contactContent.errors.email[language]
   } else if (bodyObject.phoneNumber.trim().length === 0) {
-    phoneError.textContent = language === 'es' ? 'El campo telefono no puede estar vacio' : 'The phone field cannot be empty'
+    phoneError.textContent = contactContent.errors.phone[language]
   } else if (bodyObject.description.trim().length === 0) {
-    messageError.textContent = language === 'es' ? 'El campo mensaje no puede estar vacio' : 'The message field cannot be empty'
+    messageError.textContent = contactContent.errors.message[language]
   } else if (!emailRegEx.test(bodyObject.email.trim())) {
-    emailError.textContent = language === 'es' ? 'Este campo debe tener un formato de correo valido' : 'This field must have a valid email format'
+    emailError.textContent = contactContent.errors.emailFormat[language]
   } else if (!phoneRegEx.test(bodyObject.phoneNumber.trim())) {
-    phoneError.textContent = language === 'es' ? 'Este campo debe tener un numero telefónico valido' : 'This field must have a valid phone number'
+    phoneError.textContent = contactContent.errors.phoneFormat[language]
   } else if (bodyObject.description.trim().length > 200) {
-    messageError.textContent = language === 'es' ? 'El mensaje no puede contener mas de 200 caracteres' : 'The message cannot contain more than 200 characters'
+    messageError.textContent = contactContent.errors.messageLength[language]
   } else {
     const response = postEmailData(bodyObject)
     resetForm()

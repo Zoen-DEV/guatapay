@@ -5,8 +5,8 @@ body {
 
 :root {
   /* fonts */
-  --heading-h4-bold: "DM Sans";
-  --paragraph-small-regular: "DM Sans";
+  --heading-h4-bold: 'DM Sans';
+  --paragraph-small-regular: 'DM Sans';
   --paragraph-medium-medium: Inter;
 
   /* font sizes */
@@ -26,6 +26,7 @@ body {
   --color-gray-200: #404040;
   --neutral-9001: #111827;
   --neutral-900: #171717;
+  --neutral-900-shadow: #1717174e;
   --secondary-300-main: #e1e7fd99;
   --secondary-400-main: #d0d6ec99;
   --secondary-500-main: #6466e9;

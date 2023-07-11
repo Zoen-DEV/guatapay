@@ -126,9 +126,27 @@
 }
 
 .success-form-message {
+  position: fixed;
+  white-space: nowrap;
+  z-index: 200;
+  top: 86vh;
+  left: 78vw;
+  padding: var(--padding-xl) var(--padding-5xl);
+  box-shadow: 2px 2px 8px 0 var(--neutral-900-shadow);
+  animation: 1s ease fade-in;
+  border-radius: var(--br-7xs);
+  background-color: var(--secondary-500-main);
   margin-top: var(--gap-base);
-  margin-left: var(--gap-13xl);
   align-self: center;
+  font-size: var(--paragraph-medium-regular-size);
+  font-weight: 500;
+  color: var(--generic-white);
+  font-family: var(--paragraph-small-regular);
+  display: none;
+}
+
+.show-send-alert {
+  display: inline-block;
 }
 
 .policy-paragraph {
@@ -154,6 +172,11 @@
 
   .submit-btn {
     width: 25%;
+  }
+
+  .success-form-message {
+    left: 60vw;
+    top: 90vh;
   }
 }
 
@@ -185,5 +208,10 @@
 
   .policy-paragraph {
     text-align: justify;
+  }
+
+  .success-form-message {
+    left: 25vw;
+    top: 0vh;
   }
 }

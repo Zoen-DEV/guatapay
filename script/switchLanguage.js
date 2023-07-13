@@ -12,8 +12,6 @@ buttonsLanguage.forEach((btn) => {
     handleFooterLanguage()
     handleNavLanguage()
 
-    console.log(path)
-
     if (path === '/index.html' || path === '/') {
       handleHomeLanguage()
     }

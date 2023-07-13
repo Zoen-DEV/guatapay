@@ -12,7 +12,9 @@ buttonsLanguage.forEach((btn) => {
     handleFooterLanguage()
     handleNavLanguage()
 
-    if (path === '/index.html') {
+    console.log(path)
+
+    if (path === '/index.html' || path === '/') {
       handleHomeLanguage()
     }
     if (path === '/solutions/index.html') {

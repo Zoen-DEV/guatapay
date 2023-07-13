@@ -1,19 +1,28 @@
-const buttonsLanguage = document.querySelectorAll('.button-language')
-const languageFromLocalStorage = window.localStorage.getItem('language')
-let defaultLanguage = navigator.language === 'en' ? navigator.language : 'es'
-if (navigator.language.includes('en')) {
-  defaultLanguage = 'en'
-}
-let language = languageFromLocalStorage === 'es' || languageFromLocalStorage === 'en' ? languageFromLocalStorage : defaultLanguage
-
 // Event listener to switch language buttons
 buttonsLanguage.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     let localLanguage = e.target.name ? e.target.name : e.target.id
+    const path = window.location.pathname
 
     if (!language || language !== localLanguage) {
       window.localStorage.setItem('language', localLanguage)
-      window.location.reload()
+      language = localLanguage
+    }
+
+    handleFooterLanguage()
+    handleNavLanguage()
+
+    if (path === '/index.html') {
+      handleHomeLanguage()
+    }
+    if (path === '/solutions/index.html') {
+      handleSolutionsLanguage()
+    }
+    if (path === '/about/index.html') {
+      handleAboutLanguage()
+    }
+    if (path === '/contactus/index.html') {
+      handleContactLanguage()
     }
   })
 })

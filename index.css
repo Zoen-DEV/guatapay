@@ -1639,6 +1639,8 @@
   /* <- mobile menu */
 
   .nav-container {
+    position: fixed;
+    width: 100vw;
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;
@@ -1671,6 +1673,7 @@
   .hero {
     gap: var(--gap-5xl);
     padding-top: var(--padding-61xl);
+    margin-top: var(--padding-61xl);
     box-sizing: border-box;
   }
   .countries {

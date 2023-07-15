@@ -218,8 +218,8 @@ const solutionsContent = {
       en: 'Guatapay solutions'
     },
     paragraph: {
-      es: 'Semper risus in hendrerit gravida rutrum quisque. In ornare quam viverra orci sagittis eu volutpat odio. Nisi porta lorem mollis aliquam. Tellus in metus vulputate.',
-      en: 'Semper risus in hendrerit gravida rutrum quisque. In ornare quam viverra orci sagittis eu volutpat odio. Nisi porta lorem mollis aliquam. Tellus in metus vulputate.'
+      es: 'Somos la primera solución integral de pagos y transferencias borderless que permite simplificar la manera como los comercios y personas envían reciben y almacenan su dinero a nivel global.',
+      en: 'We are the first comprehensive borderless payment and transfer solution that simplifies the way merchants and individuals send, receive and store their money globally.'
     }
   },
   container: {

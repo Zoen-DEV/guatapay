@@ -31,4 +31,5 @@ const handleNavLanguage = (e) => {
 window.addEventListener('DOMContentLoaded', () => {
   handleNavLanguage()
   handleFooterLanguage()
+  document.title = titleContent[language]
 })

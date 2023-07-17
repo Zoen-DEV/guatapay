@@ -1,4 +1,9 @@
 // Labels in both languages
+const titleContent = {
+  es: '.: GUATAPAY :. | Somos el futuro de una economía sin fronteras.',
+  en: '.: GUATAPAY :. | We are the future of an economy without borders.'
+}
+
 const footerContent = {
   services: {
     es: 'Servicios',

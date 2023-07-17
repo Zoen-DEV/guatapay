@@ -11,6 +11,7 @@ buttonsLanguage.forEach((btn) => {
 
     handleFooterLanguage()
     handleNavLanguage()
+    document.title = titleContent[language]
 
     if (path === '/index.html' || path === '/') {
       handleHomeLanguage()

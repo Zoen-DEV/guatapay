@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   font-family: var(--paragraph-small-regular);
+  margin-top: var(--padding-61xl);
 }
 
 .about-title {
@@ -151,7 +152,6 @@
   /* about */
   .about-container {
     width: 100vw;
-    margin-top: var(--padding-61xl);
   }
 
   .about-paragraph {

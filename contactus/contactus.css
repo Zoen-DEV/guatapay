@@ -14,6 +14,7 @@
   width: 100vw;
   padding: var(--padding-21xl) 0;
   gap: var(--gap-29xl);
+  margin-top: var(--padding-61xl);
 }
 
 /* Form header */
@@ -184,10 +185,6 @@
 @media screen and (max-width: 640px) {
   .form-header {
     width: 95vw;
-  }
-
-  .form-container {
-    margin-top: var(--padding-61xl);
   }
 
   .contactus-form {

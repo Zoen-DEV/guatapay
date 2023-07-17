@@ -254,7 +254,10 @@
   background-color: var(--secondary-500-main);
   padding: var(--padding-5xl) var(--padding-181xl);
   justify-content: space-between;
-  z-index: 2;
+  z-index: 200;
+  position: fixed;
+  width: 100vw;
+  box-sizing: border-box;
 }
 .fcil-rpido-y {
   position: relative;
@@ -1269,7 +1272,6 @@
     display: flex;
     padding-left: var(--padding-181xl);
     padding-right: var(--padding-181xl);
-    box-sizing: border-box;
   }
   .guatapay-me-da {
     align-self: stretch;
@@ -1639,8 +1641,6 @@
   /* <- mobile menu */
 
   .nav-container {
-    position: fixed;
-    width: 100vw;
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;

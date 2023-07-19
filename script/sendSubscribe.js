@@ -1,6 +1,7 @@
 const nexsletterInput = document.querySelector('.nexsletter-input')
 const nexsletterSubmit = document.querySelector('.nexsletter-submit')
 const nexsletterError = document.querySelector('.nexsletter-error')
+const subscriptionAlert = document.getElementById('subscription-alert')
 const subscriptionData = {
   email: ''
 }
@@ -23,6 +24,13 @@ const postSubscribe = async (data) => {
   return response.json()
 }
 
+const alertSubscription = () => {
+  subscriptionAlert.classList.add('show-send-alert')
+  setTimeout(() => {
+    subscriptionAlert.classList.remove('show-send-alert')
+  }, 5000)
+}
+
 const handleSubscriptionSubmit = (e) => {
   e.preventDefault()
   const emailRegEx = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g
@@ -33,6 +41,7 @@ const handleSubscriptionSubmit = (e) => {
     const response = postSubscribe(subscriptionData)
     subscriptionData.email = ''
     nexsletterInput.value = ''
+    alertSubscription()
     response.then((res) => console.log(res)).catch((err) => console.log(err))
   }
 }

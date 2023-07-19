@@ -139,7 +139,11 @@
           <div class="nexsletter">
             <p class="nexsletter-paragraph">Recibe las últimas noticias de Guatapay en tu correo:</p>
             <div class="nexsletter-form">
-              <input class="nexsletter-input" type="text" />
+              <label>
+                <input class="nexsletter-input" type="text" />
+                <p class="nexsletter-error"></p>
+                <div class="success-form-message" id="subscription-alert">Subscripcion realizada correctamente 👍</div>
+              </label>
 
               <button class="nexsletter-submit">Suscribirse</button>
             </div>
@@ -157,5 +161,6 @@
     <script src="/script/contactLanguage.js"></script>
     <script src="/script/sendEmail.js"></script>
     <script src="/script/switchLanguage.js"></script>
+    <script src="/script/sendSubscribe.js"></script>
   </body>
 </html>

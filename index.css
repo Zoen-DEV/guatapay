@@ -1152,6 +1152,11 @@
   box-sizing: border-box;
   box-shadow: 0 0 0 4px rgba(90, 56, 253, 0.1);
 }
+.nexsletter-error {
+  color: var(--destructive-500);
+  font-size: var(--overline-small-size);
+  margin: 0;
+}
 .nexsletter-submit {
   cursor: pointer;
   border: 0;

@@ -66,6 +66,7 @@
   padding: var(--padding-xs) var(--padding-3xs);
   border-radius: var(--br-7xs);
   border: 1px solid var(--neutral-200);
+  font-family: var(--paragraph-small-regular);
 }
 
 .contactus-form-input:hover {
@@ -97,6 +98,7 @@
   border: 1px solid var(--neutral-200);
   margin-top: var(--gap-5xs);
   resize: none;
+  font-family: var(--paragraph-small-regular);
 }
 
 .contactus-form span {

@@ -48,3 +48,8 @@ const handleSubscriptionSubmit = (e) => {
 
 nexsletterInput.addEventListener('input', handleSubscriptionChange)
 nexsletterSubmit.addEventListener('click', handleSubscriptionSubmit)
+nexsletterInput.addEventListener('keyup', (e) => {
+  if (e.code === 'Enter') {
+    handleSubscriptionSubmit(e)
+  }
+})

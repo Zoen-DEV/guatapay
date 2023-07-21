@@ -2,6 +2,7 @@ const nexsletterInput = document.querySelector('.nexsletter-input')
 const nexsletterSubmit = document.querySelector('.nexsletter-submit')
 const nexsletterError = document.querySelector('.nexsletter-error')
 const subscriptionAlert = document.getElementById('subscription-alert')
+const subscripcionLoaderRing = document.querySelector('.subscripcion-loader-container')
 const subscriptionData = {
   email: ''
 }
@@ -39,12 +40,24 @@ const handleSubscriptionSubmit = (e) => {
     nexsletterError.textContent = contactContent.errors.emailFormat[language]
   } else {
     const response = postSubscribe(subscriptionData)
+    nexsletterSubmit.classList.remove('show-submit-button')
+    subscripcionLoaderRing.classList.add('show-submit-button')
     subscriptionData.email = ''
     nexsletterInput.value = ''
-    alertSubscription()
-    response.then((res) => console.log(res)).catch((err) => console.log(err))
+    response
+      .then((res) => {
+        nexsletterSubmit.classList.add('show-submit-button')
+        subscripcionLoaderRing.classList.remove('show-submit-button')
+        alertSubscription()
+      })
+      .catch((err) => console.log(err))
   }
 }
 
 nexsletterInput.addEventListener('input', handleSubscriptionChange)
 nexsletterSubmit.addEventListener('click', handleSubscriptionSubmit)
+nexsletterInput.addEventListener('keyup', (e) => {
+  if (e.code === 'Enter') {
+    handleSubscriptionSubmit(e)
+  }
+})

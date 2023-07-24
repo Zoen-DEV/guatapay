@@ -36,7 +36,9 @@ const handleSubscriptionSubmit = (e) => {
   e.preventDefault()
   const emailRegEx = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g
 
-  if (!emailRegEx.test(subscriptionData.email.trim())) {
+  if (subscriptionData.email.trim().length === 0) {
+    return
+  } else if (!emailRegEx.test(subscriptionData.email.trim())) {
     nexsletterError.textContent = contactContent.errors.emailFormat[language]
   } else {
     const response = postSubscribe(subscriptionData)
@@ -51,13 +53,15 @@ const handleSubscriptionSubmit = (e) => {
         alertSubscription()
       })
       .catch((err) => console.log(err))
+    return response
   }
+  return
 }
 
 nexsletterInput.addEventListener('input', handleSubscriptionChange)
 nexsletterSubmit.addEventListener('click', handleSubscriptionSubmit)
 nexsletterInput.addEventListener('keyup', (e) => {
-  if (e.code === 'Enter' && subscriptionData.email.length > 0) {
+  if (e.code === 'Enter') {
     handleSubscriptionSubmit(e)
   }
 })

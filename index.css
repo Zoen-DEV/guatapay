@@ -1629,8 +1629,8 @@
     left: 25vw;
   }
   #subscription-alert {
-    display: inline-block;
-    left: 10vw;
+    left: 2vw;
+    top: 86vh;
   }
 }
 @media screen and (max-width: 430px) {

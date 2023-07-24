@@ -1164,6 +1164,7 @@
   color: var(--destructive-500);
   font-size: var(--overline-small-size);
   margin: 0;
+  margin-top: var(--gap-5xs);
 }
 .nexsletter-submit,
 .subscripcion-loader-container {

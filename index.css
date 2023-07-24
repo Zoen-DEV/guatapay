@@ -1336,7 +1336,7 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-  z-index: 100;
+  z-index: 500;
   display: none;
   background-color: var(--color-gray-200);
   flex-direction: column;
@@ -1632,8 +1632,8 @@
     left: 25vw;
   }
   #subscription-alert {
-    display: inline-block;
-    left: 10vw;
+    left: 2vw;
+    top: 86vh;
   }
 }
 @media screen and (max-width: 430px) {

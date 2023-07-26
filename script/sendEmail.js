@@ -91,12 +91,12 @@ const handleSubmitEmail = (e) => {
     nameError.textContent = contactContent.errors.name[language]
   } else if (bodyObject.email.trim().length === 0) {
     emailError.textContent = contactContent.errors.email[language]
+  } else if (!emailRegEx.test(bodyObject.email.trim())) {
+    emailError.textContent = contactContent.errors.emailFormat[language]
   } else if (bodyObject.phoneNumber.trim().length === 0) {
     phoneError.textContent = contactContent.errors.phone[language]
   } else if (bodyObject.description.trim().length === 0) {
     messageError.textContent = contactContent.errors.message[language]
-  } else if (!emailRegEx.test(bodyObject.email.trim())) {
-    emailError.textContent = contactContent.errors.emailFormat[language]
   } else if (!phoneRegEx.test(bodyObject.phoneNumber.trim())) {
     phoneError.textContent = contactContent.errors.phoneFormat[language]
   } else if (bodyObject.description.trim().length > 200) {

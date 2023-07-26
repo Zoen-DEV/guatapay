@@ -34,7 +34,7 @@ const footerContent = {
     en: 'Copyright © Guatapay 2023 - All rights reserved'
   },
   alert: {
-    es: "Subscripcion realizada correctamente 👍",
+    es: "Suscripción realizada correctamente 👍",
     en: "Subscription sent successfully 👍"
   }
 }

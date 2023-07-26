@@ -32,6 +32,10 @@ const footerContent = {
   copyright: {
     es: 'Copyright © Guatapay 2023 - Todos los derechos reservados',
     en: 'Copyright © Guatapay 2023 - All rights reserved'
+  },
+  alert: {
+    es: "Suscripción realizada correctamente 👍",
+    en: "Subscription sent successfully 👍"
   }
 }
 

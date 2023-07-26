@@ -19,6 +19,7 @@ const contactFooterLink = document.getElementById('contact-footer-link')
 const nexsletterParagraph = document.querySelector('.nexsletter-paragraph')
 const nexsletterBtn = document.querySelector('.nexsletter-submit')
 const copyrightParagraph = document.querySelector('.copyright-paragraph')
+const subsAlert = document.getElementById('subscription-alert')
 
 // Home labels
 // hero:

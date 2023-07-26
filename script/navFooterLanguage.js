@@ -7,6 +7,7 @@ const handleFooterLanguage = (e) => {
   nexsletterParagraph.textContent = footerContent.nexsletter[language]
   nexsletterBtn.textContent = footerContent.button[language]
   copyrightParagraph.textContent = footerContent.copyright[language]
+  subsAlert.textContent = footerContent.alert[language]
 }
 
 const handleNavLanguage = (e) => {

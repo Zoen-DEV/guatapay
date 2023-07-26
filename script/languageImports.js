@@ -75,6 +75,7 @@ const weBelieveParagraph = document.querySelector('.we-believe-paragraph')
 
 // Currencies container:
 const currenciesParagraph = document.querySelector('.currencies-paragraph')
+const comingSoonIcon = document.querySelector('.comming-soon-icon')
 
 // our service container:
 const ourServiceParagraph = document.querySelector('.our-service-paragraph')

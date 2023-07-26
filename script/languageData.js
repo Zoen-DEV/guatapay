@@ -34,8 +34,8 @@ const footerContent = {
     en: 'Copyright © Guatapay 2023 - All rights reserved'
   },
   alert: {
-    es: "Suscripción realizada correctamente 👍",
-    en: "Subscription sent successfully 👍"
+    es: 'Suscripción realizada correctamente 👍',
+    en: 'Subscription sent successfully 👍'
   }
 }
 
@@ -207,6 +207,10 @@ const aboutContent = {
   currencies: {
     es: 'Guatapay es una infraestructura de aceptación de pagos con Bitcoin, Lightning Network y las criptomonedas de mayor impacto en el entorno económico global.',
     en: 'Guatapay is a payment acceptance infrastructure for Bitcoin, Lightning Network and the cryptocurrencies with the greatest impact on the global economic environment.'
+  },
+  soon: {
+    es: 'Proximamente mas',
+    en: 'More coming soon'
   },
   ourService: {
     es: 'Nuestro servicio de gateway de pagos permite a las personas, comercios y compañías realizar y recibir pagos instantáneamente, 24/7, desde cualquier lugar conectado a internet en el mundo, convirtiéndolos en tu moneda local y, lo mejor de todo, al costo más competitivo del mercado de pagos digitales global.',

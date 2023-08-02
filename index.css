@@ -224,7 +224,6 @@
   position: relative;
   width: 40px;
   height: 40px;
-  cursor: pointer;
 }
 .language-container:hover .menu-language {
   display: flex;
@@ -232,9 +231,6 @@
   opacity: 1;
 }
 .menu-icon {
-  position: absolute;
-  top: calc(50% - 12px);
-  left: calc(50% - 12px);
   width: 24px;
   height: 24px;
   overflow: hidden;
@@ -1348,6 +1344,10 @@
 @media screen and (min-width: 1024px) {
   .menu-container,
   .menu-soluciones-responsive {
+    display: none;
+  }
+
+  .menu-icon{
     display: none;
   }
 }

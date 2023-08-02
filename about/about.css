@@ -103,6 +103,30 @@
   display: flex;
   justify-content: center;
   gap: var(--gap-5xl);
+  font-size: var(--paragraph-medium-regular-size);
+}
+
+.soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: var(--neutral-300);
+}
+
+.soon-icon-container {
+  background-color: var(--neutral-100);
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soon-icon {
+  width: 30px;
+  height: 30px;
 }
 
 /* our-service */

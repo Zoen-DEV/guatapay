@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html ./about/*.html ./contactus/*.html ./solutions/*.html --dist-dir ./dist"
+    "build": "mkdir -p dist && cp index.html privacy-policy.html terms-conditions.html global.css index.css terms-conditions.css dist/ && cp -r about contactus solutions public script dist/"
   },
   "author": "",
   "license": "ISC",

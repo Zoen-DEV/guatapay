@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "build": "parcel build ./*.html ./about/*.html ./contactus/*.html ./solutions/*.html --dist-dir ./dist"
   },
   "author": "",
   "license": "ISC",
